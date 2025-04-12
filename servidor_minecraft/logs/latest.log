@@ -654,3 +654,8 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [12Apr2025 20:01:58.452] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5615ms or 112 ticks behind
 [12Apr2025 20:02:28.752] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 15315ms or 306 ticks behind
 [12Apr2025 20:03:04.833] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2146ms or 42 ticks behind
+[12Apr2025 20:04:43.853] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ZzBaal_ moved wrongly!
+[12Apr2025 20:11:43.356] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ZzBaal_ lost connection: Disconnected
+[12Apr2025 20:11:43.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZzBaal_ left the game
+[12Apr2025 20:11:43.357] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for 8ac19fef-2e6a-373a-8fe4-ac9a866616d0
+[12Apr2025 20:11:43.357] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client ZzBaal_
