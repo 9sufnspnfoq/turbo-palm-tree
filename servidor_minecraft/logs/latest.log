@@ -620,3 +620,27 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [12Apr2025 18:11:24.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZzBaal_ left the game
 [12Apr2025 18:11:24.808] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for 8ac19fef-2e6a-373a-8fe4-ac9a866616d0
 [12Apr2025 18:11:24.813] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client ZzBaal_
+[12Apr2025 18:21:33.274] [Netty Epoll Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 0
+[12Apr2025 18:21:33.381] [Netty Epoll Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 1
+[12Apr2025 18:21:33.389] [Netty Epoll Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 2
+[12Apr2025 18:21:33.429] [Netty Epoll Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 3
+[12Apr2025 18:21:33.529] [Netty Epoll Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 4
+[12Apr2025 18:21:33.537] [Netty Epoll Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 5
+[12Apr2025 18:21:33.538] [Netty Epoll Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 6
+[12Apr2025 18:21:33.672] [Netty Epoll Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 7
+[12Apr2025 18:21:33.675] [Netty Epoll Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 8
+[12Apr2025 18:21:33.685] [Netty Epoll Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 9
+[12Apr2025 18:21:33.781] [Netty Epoll Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 10
+[12Apr2025 18:21:33.805] [Netty Epoll Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 11
+[12Apr2025 18:21:34.402] [Netty Epoll Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 12
+[12Apr2025 18:21:34.402] [Netty Epoll Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 13
+[12Apr2025 18:21:34.437] [Netty Epoll Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 14
+[12Apr2025 18:21:34.438] [Netty Epoll Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 15
+[12Apr2025 18:21:42.563] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ZzBaal_[/127.29.101.194:42311] logged in with entity id 27031 at (-1466.9772444850462, 68.0, 7029.767346020687)
+[12Apr2025 18:21:42.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZzBaal_ joined the game
+[12Apr2025 18:21:42.601] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for 8ac19fef-2e6a-373a-8fe4-ac9a866616d0
+[12Apr2025 18:21:42.603] [Server thread/INFO] [Jade/]: Syncing config to ZzBaal_ (8ac19fef-2e6a-373a-8fe4-ac9a866616d0)
+[12Apr2025 18:21:43.284] [Server thread/WARN] [ImprovableSkills/]: Skill tick took too long! (655 ms, expected <50 ms!). Time map: [improvableskills:accelerated_furnace=655, improvableskills:luck_of_the_sea=0, improvableskills:silent_foot=0, improvableskills:obsidian_skin=0, improvableskills:attack_speed=0, improvableskills:dexterous_arms=0, improvableskills:huckster=0, improvableskills:fast_swimmer=0, improvableskills:growth=0, improvableskills:pvp=0, improvableskills:xp_plus=0, improvableskills:soft_landing=0, improvableskills:cutting=0, improvableskills:treasure_sands=0, improvableskills:mob_repellent=0, improvableskills:mining=0, improvableskills:atkdmg_ranged=0, improvableskills:alchemist=0, improvableskills:leaper=0, improvableskills:atkdmg_melee=0, improvableskills:ladder_king=0, improvableskills:ender_manipulator=0, improvableskills:generic_protection=0, improvableskills:health=0, improvableskills:enchanter=0, improvableskills:anvil=0, improvableskills:digging=0, improvableskills:soul_speed=0]
+[12Apr2025 18:21:43.674] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of ZzBaal_ (18)
+[12Apr2025 18:21:43.674] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to ZzBaal_
+[12Apr2025 18:21:57.885] [Server thread/INFO] [ImprovableSkills/]: Sending skill data to ZzBaal_ (8ac19fef-2e6a-373a-8fe4-ac9a866616d0)
