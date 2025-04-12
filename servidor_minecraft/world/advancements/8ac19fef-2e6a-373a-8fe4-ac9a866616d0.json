@@ -7756,21 +7756,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/beetroot_soup": {
-    "criteria": {
-      "has_beetroot": "2025-04-12 18:02:36 +0000"
-    },
-    "done": true
-  },
   "ars_elemental:air_focus": {
     "criteria": {
       "has_air_focus": "2025-04-12 16:45:09 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/red_dye_from_beetroot": {
+  "minecraft:nether/find_bastion": {
     "criteria": {
-      "has_beetroot": "2025-04-12 18:02:36 +0000"
+      "bastion": "2025-04-12 17:08:26 +0000"
     },
     "done": true
   },
@@ -7780,9 +7774,15 @@
     },
     "done": true
   },
-  "minecraft:nether/find_bastion": {
+  "minecraft:recipes/food/beetroot_soup": {
     "criteria": {
-      "bastion": "2025-04-12 17:08:26 +0000"
+      "has_beetroot": "2025-04-12 18:02:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2025-04-12 18:02:36 +0000"
     },
     "done": true
   },
