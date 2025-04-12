@@ -609,3 +609,14 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [12Apr2025 17:11:56.753] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Withering Archer'/11887, l='ServerLevel[world]', x=-290.37, y=50.88, z=-775.92] died: Withering Archer was slain by ZzBaal_
 [12Apr2025 17:12:32.279] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Withering Archer'/12229, l='ServerLevel[world]', x=-162.35, y=49.88, z=-791.31] died: Withering Archer was slain by ZzBaal_
 [12Apr2025 17:39:54.556] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.TamableAnimal from interface com.hollingsworth.arsnouveau.common.entity.IFollowingSummon
+[12Apr2025 18:02:15.576] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ZzBaal_ moved wrongly!
+[12Apr2025 18:03:29.816] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ZzBaal_ moved wrongly!
+[12Apr2025 18:03:55.210] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Honeyed Archer'/23969, l='ServerLevel[world]', x=-1512.06, y=68.00, z=6996.53] died: Honeyed Archer was shattered by ZzBaal_
+[12Apr2025 18:05:46.389] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[12Apr2025 18:05:46.389] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[12Apr2025 18:05:48.688] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[12Apr2025 18:05:48.688] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[12Apr2025 18:11:24.806] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ZzBaal_ lost connection: Disconnected
+[12Apr2025 18:11:24.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZzBaal_ left the game
+[12Apr2025 18:11:24.808] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for 8ac19fef-2e6a-373a-8fe4-ac9a866616d0
+[12Apr2025 18:11:24.813] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client ZzBaal_

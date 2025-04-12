@@ -2852,6 +2852,7 @@
       "cooked_porkchop": "2025-03-22 22:38:35 +0000",
       "cooked_mutton": "2025-03-28 15:12:35 +0000",
       "spider_eye": "2025-04-06 01:03:16 +0000",
+      "potato": "2025-04-12 18:05:11 +0000",
       "bread": "2025-03-22 23:04:53 +0000",
       "golden_apple": "2025-03-23 17:15:29 +0000",
       "rotten_flesh": "2025-03-28 20:10:56 +0000",
@@ -7755,9 +7756,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2025-04-12 18:02:36 +0000"
+    },
+    "done": true
+  },
   "ars_elemental:air_focus": {
     "criteria": {
       "has_air_focus": "2025-04-12 16:45:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2025-04-12 18:02:36 +0000"
     },
     "done": true
   },
