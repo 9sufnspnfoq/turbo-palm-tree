@@ -3197,6 +3197,7 @@
       "minecraft:vindicator": "2025-03-29 19:49:13 +0000",
       "minecraft:magma_cube": "2025-03-28 03:41:43 +0000",
       "minecraft:spider": "2025-03-23 15:03:59 +0000",
+      "minecraft:piglin_brute": "2025-04-12 17:08:57 +0000",
       "minecraft:creeper": "2025-03-23 15:22:44 +0000",
       "minecraft:wither": "2025-03-26 04:47:14 +0000",
       "minecraft:slime": "2025-03-24 05:04:29 +0000",
@@ -7757,6 +7758,18 @@
   "ars_elemental:air_focus": {
     "criteria": {
       "has_air_focus": "2025-04-12 16:45:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_other": "2025-04-12 17:08:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2025-04-12 17:08:26 +0000"
     },
     "done": true
   },

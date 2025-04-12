@@ -606,3 +606,5 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [12Apr2025 17:08:34.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZzBaal_ has made the advancement [War Pigs]
 [12Apr2025 17:10:57.836] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ZzBaal_ moved wrongly!
 [12Apr2025 17:10:58.500] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ZzBaal_ moved wrongly!
+[12Apr2025 17:11:56.753] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Withering Archer'/11887, l='ServerLevel[world]', x=-290.37, y=50.88, z=-775.92] died: Withering Archer was slain by ZzBaal_
+[12Apr2025 17:12:32.279] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Withering Archer'/12229, l='ServerLevel[world]', x=-162.35, y=49.88, z=-791.31] died: Withering Archer was slain by ZzBaal_
