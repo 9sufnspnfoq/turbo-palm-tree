@@ -694,3 +694,9 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [14Apr2025 19:22:46.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reiner1411 has made the advancement [Professional Dungeoneer]
 [14Apr2025 19:22:46.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reiner1411 has made the advancement [When in Rome]
 [14Apr2025 19:32:54.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reiner1411 has made the advancement [Jennifer Dumped Me]
+[14Apr2025 19:51:39.426] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-8742, y=103, z=7654} BlockPos{x=-8741, y=100, z=7654}
+[14Apr2025 19:51:39.629] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-8742, y=101, z=7654} BlockPos{x=-8742, y=102, z=7653}
+[14Apr2025 19:51:39.923] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-8742, y=103, z=7654} BlockPos{x=-8742, y=101, z=7653}
+[14Apr2025 19:52:41.948] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[14Apr2025 19:53:36.247] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[14Apr2025 19:53:45.497] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
