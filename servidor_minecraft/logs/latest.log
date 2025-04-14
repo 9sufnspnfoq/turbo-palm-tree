@@ -660,3 +660,8 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [14Apr2025 18:39:36.981] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2036ms or 40 ticks behind
 [14Apr2025 18:39:57.094] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1522, y=70, z=7002} BlockPos{x=-1523, y=69, z=7002}
 [14Apr2025 18:40:44.265] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.TamableAnimal from interface com.hollingsworth.arsnouveau.common.entity.IFollowingSummon
+[14Apr2025 18:46:29.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reiner1411 has made the advancement [I Found It Underground]
+[14Apr2025 18:47:04.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reiner1411 has made the advancement [Ol' Betsy]
+[14Apr2025 18:47:32.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZzBaal_ has made the advancement [To Die For]
+[14Apr2025 18:48:31.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ZzBaal_: Set the time to 1000]
+[14Apr2025 18:49:39.151] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind

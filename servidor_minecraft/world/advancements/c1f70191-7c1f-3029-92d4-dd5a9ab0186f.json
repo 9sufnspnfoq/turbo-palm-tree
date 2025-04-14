@@ -4492,6 +4492,30 @@
     },
     "done": true
   },
+  "apotheosis:affix/chests": {
+    "criteria": {
+      "sword": "2025-04-14 18:46:29 +0000"
+    },
+    "done": true
+  },
+  "gobber2:gobber2_armor_end": {
+    "criteria": {
+      "gobber2_boots_end": "2025-04-14 18:37:48 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:affix/socket": {
+    "criteria": {
+      "socket": "2025-04-14 18:37:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2025-04-14 18:47:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_bed": {
     "criteria": {
       "has_black_wool": "2025-04-14 18:33:35 +0000"
@@ -4507,6 +4531,12 @@
   "minecraft:recipes/misc/yellow_dye_from_sunflower": {
     "criteria": {
       "has_sunflower": "2025-04-14 18:33:40 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:affix/epic": {
+    "criteria": {
+      "sword": "2025-04-14 18:37:49 +0000"
     },
     "done": true
   },
