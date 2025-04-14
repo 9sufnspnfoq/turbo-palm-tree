@@ -700,3 +700,55 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [14Apr2025 19:52:41.948] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
 [14Apr2025 19:53:36.247] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
 [14Apr2025 19:53:45.497] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[14Apr2025 19:57:50.045] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[14Apr2025 19:58:11.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reiner1411 has made the advancement [Deceived Hopes]
+[14Apr2025 19:58:38.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reiner1411 has completed the challenge [It Spreads]
+[14Apr2025 19:59:03.349] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[14Apr2025 20:00:40.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reiner1411 was obliterated by a sonically-charged shriek
+[14Apr2025 20:00:42.367] [Server thread/WARN] [ImprovableSkills/]: Skill tick took too long! (538 ms, expected <50 ms!). Time map: [improvableskills:accelerated_furnace=538, improvableskills:luck_of_the_sea=0, improvableskills:silent_foot=0, improvableskills:obsidian_skin=0, improvableskills:attack_speed=0, improvableskills:dexterous_arms=0, improvableskills:huckster=0, improvableskills:fast_swimmer=0, improvableskills:growth=0, improvableskills:pvp=0, improvableskills:xp_plus=0, improvableskills:soft_landing=0, improvableskills:cutting=0, improvableskills:treasure_sands=0, improvableskills:mob_repellent=0, improvableskills:mining=0, improvableskills:atkdmg_ranged=0, improvableskills:alchemist=0, improvableskills:leaper=0, improvableskills:atkdmg_melee=0, improvableskills:ladder_king=0, improvableskills:ender_manipulator=0, improvableskills:generic_protection=0, improvableskills:health=0, improvableskills:enchanter=0, improvableskills:digging=0, improvableskills:soul_speed=0]
+[14Apr2025 20:00:43.208] [Server thread/WARN] [ImprovableSkills/]: Skill tick took too long! (497 ms, expected <50 ms!). Time map: [improvableskills:accelerated_furnace=497, improvableskills:luck_of_the_sea=0, improvableskills:silent_foot=0, improvableskills:obsidian_skin=0, improvableskills:attack_speed=0, improvableskills:dexterous_arms=0, improvableskills:huckster=0, improvableskills:fast_swimmer=0, improvableskills:growth=0, improvableskills:pvp=0, improvableskills:xp_plus=0, improvableskills:soft_landing=0, improvableskills:cutting=0, improvableskills:treasure_sands=0, improvableskills:mob_repellent=0, improvableskills:mining=0, improvableskills:atkdmg_ranged=0, improvableskills:alchemist=0, improvableskills:leaper=0, improvableskills:atkdmg_melee=0, improvableskills:ladder_king=0, improvableskills:ender_manipulator=0, improvableskills:generic_protection=0, improvableskills:health=0, improvableskills:enchanter=0, improvableskills:digging=0, improvableskills:soul_speed=0]
+[14Apr2025 20:00:44.034] [Server thread/WARN] [ImprovableSkills/]: Skill tick took too long! (565 ms, expected <50 ms!). Time map: [improvableskills:accelerated_furnace=565, improvableskills:luck_of_the_sea=0, improvableskills:silent_foot=0, improvableskills:obsidian_skin=0, improvableskills:attack_speed=0, improvableskills:dexterous_arms=0, improvableskills:huckster=0, improvableskills:fast_swimmer=0, improvableskills:growth=0, improvableskills:pvp=0, improvableskills:xp_plus=0, improvableskills:soft_landing=0, improvableskills:cutting=0, improvableskills:treasure_sands=0, improvableskills:mob_repellent=0, improvableskills:mining=0, improvableskills:atkdmg_ranged=0, improvableskills:alchemist=0, improvableskills:leaper=0, improvableskills:atkdmg_melee=0, improvableskills:ladder_king=0, improvableskills:ender_manipulator=0, improvableskills:generic_protection=0, improvableskills:health=0, improvableskills:enchanter=0, improvableskills:digging=0, improvableskills:soul_speed=0]
+[14Apr2025 20:00:44.534] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[14Apr2025 20:00:51.673] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: reiner1411 lost connection: Disconnected
+[14Apr2025 20:00:51.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reiner1411 left the game
+[14Apr2025 20:00:51.674] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for c1f70191-7c1f-3029-92d4-dd5a9ab0186f
+[14Apr2025 20:00:51.674] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client reiner1411
+[14Apr2025 20:01:00.845] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[14Apr2025 20:01:42.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made reiner1411 a server operator
+[14Apr2025 20:01:49.794] [Netty Epoll Server IO #0/INFO] [Calio/]: Received acknowledgment for login packet with id 0
+[14Apr2025 20:01:49.944] [Netty Epoll Server IO #0/INFO] [Calio/]: Received acknowledgment for login packet with id 1
+[14Apr2025 20:01:49.960] [Netty Epoll Server IO #0/INFO] [Calio/]: Received acknowledgment for login packet with id 2
+[14Apr2025 20:01:49.960] [Netty Epoll Server IO #0/INFO] [Calio/]: Received acknowledgment for login packet with id 3
+[14Apr2025 20:01:50.085] [Netty Epoll Server IO #0/INFO] [Calio/]: Received acknowledgment for login packet with id 4
+[14Apr2025 20:01:50.086] [Netty Epoll Server IO #0/INFO] [Calio/]: Received acknowledgment for login packet with id 5
+[14Apr2025 20:01:50.090] [Netty Epoll Server IO #0/INFO] [Calio/]: Received acknowledgment for login packet with id 6
+[14Apr2025 20:01:50.221] [Netty Epoll Server IO #0/INFO] [Calio/]: Received acknowledgment for login packet with id 7
+[14Apr2025 20:01:50.260] [Netty Epoll Server IO #0/INFO] [Calio/]: Received acknowledgment for login packet with id 8
+[14Apr2025 20:01:50.260] [Netty Epoll Server IO #0/INFO] [Calio/]: Received acknowledgment for login packet with id 9
+[14Apr2025 20:01:50.421] [Netty Epoll Server IO #0/INFO] [Calio/]: Received acknowledgment for login packet with id 10
+[14Apr2025 20:01:50.422] [Netty Epoll Server IO #0/INFO] [Calio/]: Received acknowledgment for login packet with id 11
+[14Apr2025 20:01:50.952] [Netty Epoll Server IO #0/INFO] [Calio/]: Received acknowledgment for login packet with id 12
+[14Apr2025 20:01:50.961] [Netty Epoll Server IO #0/INFO] [Calio/]: Received acknowledgment for login packet with id 13
+[14Apr2025 20:01:51.002] [Netty Epoll Server IO #0/INFO] [Calio/]: Received acknowledgment for login packet with id 14
+[14Apr2025 20:01:51.002] [Netty Epoll Server IO #0/INFO] [Calio/]: Received acknowledgment for login packet with id 15
+[14Apr2025 20:01:59.079] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: reiner1411[/127.29.101.194:40771] logged in with entity id 88970 at (-3.5, 72.0, -7.5)
+[14Apr2025 20:01:59.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reiner1411 joined the game
+[14Apr2025 20:01:59.155] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for c1f70191-7c1f-3029-92d4-dd5a9ab0186f
+[14Apr2025 20:01:59.156] [Server thread/INFO] [Jade/]: Syncing config to reiner1411 (c1f70191-7c1f-3029-92d4-dd5a9ab0186f)
+[14Apr2025 20:01:59.971] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of reiner1411 (18)
+[14Apr2025 20:01:59.972] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to reiner1411
+[14Apr2025 20:02:07.271] [Server thread/INFO] [ImprovableSkills/]: Sending skill data to reiner1411 (c1f70191-7c1f-3029-92d4-dd5a9ab0186f)
+[14Apr2025 20:03:40.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [reiner1411: Teleported reiner1411 to -8709.500000, 163.500000, 7262.500000]
+[14Apr2025 20:05:07.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reiner1411 has made the advancement [Penteconter]
+[14Apr2025 20:05:30.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reiner1411 didn't manage to keep wet
+[14Apr2025 20:05:48.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [reiner1411: Teleported reiner1411 to -8821.500000, 90.500000, 7376.500000]
+[14Apr2025 20:06:52.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [reiner1411: Teleported reiner1411 to -1485.500000, 68.500000, 7043.500000]
+[14Apr2025 20:07:55.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [reiner1411: Teleported reiner1411 to -8713.500000, -58.500000, 7251.500000]
+[14Apr2025 20:08:51.712] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Honeyed Archer'/92108, l='ServerLevel[world]', x=-8694.65, y=140.25, z=7270.46] died: Honeyed Archer suffocated in a wall
+[14Apr2025 20:09:09.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reiner1411 was obliterated by a sonically-charged shriek
+[14Apr2025 20:09:19.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [reiner1411: Teleported reiner1411 to -8717.500000, -58.500000, 7251.500000]
+[14Apr2025 20:09:50.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [reiner1411: Teleported reiner1411 to -1638.500000, 61.500000, 6486.500000]
+[14Apr2025 20:09:54.514] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['reiner1411'/93134, l='ServerLevel[world]', x=-1638.85, y=61.00, z=6486.85] died: reiner1411 was slain by reiner1411
+[14Apr2025 20:10:34.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [reiner1411: Teleported reiner1411 to -1464.500000, 68.500000, 7027.500000]
+[14Apr2025 20:12:11.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [reiner1411: Teleported reiner1411 to -8714.500000, 154.500000, 7303.500000]
+[14Apr2025 20:12:34.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [reiner1411: Teleported reiner1411 to -1475.500000, 68.500000, 6984.500000]
