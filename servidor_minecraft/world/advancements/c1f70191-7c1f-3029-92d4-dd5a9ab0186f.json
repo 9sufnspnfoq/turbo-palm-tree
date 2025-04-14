@@ -2308,11 +2308,13 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2025-03-28 15:18:33 +0000",
+      "chicken": "2025-04-14 18:35:44 +0000",
       "cooked_mutton": "2025-03-28 20:10:20 +0000",
       "cooked_beef": "2025-03-28 20:35:12 +0000",
       "beef": "2025-03-28 20:40:32 +0000",
       "apple": "2025-03-28 15:18:20 +0000",
       "spider_eye": "2025-04-06 01:03:21 +0000",
+      "mutton": "2025-04-14 18:33:51 +0000",
       "bread": "2025-04-05 20:57:29 +0000",
       "golden_apple": "2025-04-05 21:45:51 +0000",
       "rotten_flesh": "2025-04-05 20:30:10 +0000",
@@ -4475,6 +4477,36 @@
   "majruszsdifficulty:warden_treasure_bag": {
     "criteria": {
       "bag_opened": "2025-04-06 01:16:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2025-04-14 18:33:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2025-04-14 18:33:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2025-04-14 18:33:35 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:good_demoman": {
+    "criteria": {
+      "good_demoman_0": "2025-04-14 18:34:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_sunflower": "2025-04-14 18:33:40 +0000"
     },
     "done": true
   },
