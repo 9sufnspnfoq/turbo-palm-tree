@@ -1,118 +1,118 @@
-[12Apr2025 16:07:38.515] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[12Apr2025 16:07:38.519] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
-[12Apr2025 16:07:39.267] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[12Apr2025 16:07:39.320] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/turbo-palm-tree/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[12Apr2025 16:07:39.693] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/turbo-palm-tree/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[12Apr2025 16:07:39.694] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/turbo-palm-tree/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[12Apr2025 16:07:39.696] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/turbo-palm-tree/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[12Apr2025 16:07:39.697] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/turbo-palm-tree/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[12Apr2025 16:07:39.973] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[12Apr2025 16:07:39.974] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: geckolib. Using Mod File: /workspaces/turbo-palm-tree/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.9.jar
-[12Apr2025 16:07:39.975] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
-[12Apr2025 16:07:43.296] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[12Apr2025 16:07:43.641] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
-[12Apr2025 16:07:43.647] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[12Apr2025 16:07:43.675] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
-[12Apr2025 16:07:43.833] [main/WARN] [mixin/]: Reference map 'CerbonsAPI-Forge-1.20.1-forge-refmap.json' for cerbons_api.mixins.json could not be read. If this is a development environment you can ignore this message
-[12Apr2025 16:07:43.850] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
-[12Apr2025 16:07:44.900] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[12Apr2025 16:07:44.908] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[12Apr2025 16:07:45.080] [main/WARN] [mixin/]: Error loading class: dev/latvian/mods/kubejs/recipe/RecipesEventJS (java.lang.ClassNotFoundException: dev.latvian.mods.kubejs.recipe.RecipesEventJS)
-[12Apr2025 16:07:45.081] [main/WARN] [mixin/]: @Mixin target dev.latvian.mods.kubejs.recipe.RecipesEventJS was not found mixins.hammerlib.json:bs.kubejs.RecipeEventJSMixin
-[12Apr2025 16:07:45.168] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/inventory/AnvilMenu
-[12Apr2025 16:07:45.680] [main/WARN] [mixin/]: Error loading class: org/violetmoon/quark/content/tweaks/module/GoldToolsHaveFortuneModule (java.lang.ClassNotFoundException: org.violetmoon.quark.content.tweaks.module.GoldToolsHaveFortuneModule)
-[12Apr2025 16:07:45.682] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[12Apr2025 16:07:45.684] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[12Apr2025 16:07:46.161] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/entity/container/CookingPotResultSlot (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.entity.container.CookingPotResultSlot)
-[12Apr2025 16:07:46.161] [main/WARN] [mixin/]: @Mixin target vectorwing.farmersdelight.common.block.entity.container.CookingPotResultSlot was not found origins_classes.mixins.json:common.farmersdelight.CookingPotResultSlotMixin
-[12Apr2025 16:07:46.165] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/item/SkilletItem (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.item.SkilletItem)
-[12Apr2025 16:07:46.165] [main/WARN] [mixin/]: @Mixin target vectorwing.farmersdelight.common.item.SkilletItem was not found origins_classes.mixins.json:common.farmersdelight.SkilletItemMixin
-[12Apr2025 16:07:46.183] [main/WARN] [mixin/]: Error loading class: se/mickelus/tetra/blocks/workbench/WorkbenchTile (java.lang.ClassNotFoundException: se.mickelus.tetra.blocks.workbench.WorkbenchTile)
-[12Apr2025 16:07:46.183] [main/WARN] [mixin/]: @Mixin target se.mickelus.tetra.blocks.workbench.WorkbenchTile was not found origins_classes.mixins.json:common.tetra.WorkbenchTileMixin
-[12Apr2025 16:07:46.552] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching FishingHook#catchingFish
-[12Apr2025 16:07:46.732] [main/WARN] [mixin/]: Error loading class: com/teammetallurgy/aquaculture/entity/AquaFishingBobberEntity (java.lang.ClassNotFoundException: com.teammetallurgy.aquaculture.entity.AquaFishingBobberEntity)
-[12Apr2025 16:07:47.044] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[12Apr2025 16:07:49.224] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/CreativeModeTabs
-[12Apr2025 16:07:50.552] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[12Apr2025 16:07:50.553] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[12Apr2025 16:07:50.622] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/inventory/AnvilMenu
-[12Apr2025 16:07:50.625] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in com/mrcrayfish/goblintraders/Hooks
-[12Apr2025 16:07:52.633] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching FishingHook#catchingFish
-[12Apr2025 16:07:53.069] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
-[12Apr2025 16:07:53.069] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isDiscoverable() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
-[12Apr2025 16:07:55.141] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[12Apr2025 16:07:55.144] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[12Apr2025 16:07:55.150] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[12Apr2025 16:07:55.152] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[12Apr2025 16:07:55.153] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[12Apr2025 16:07:55.154] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[12Apr2025 16:07:55.157] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
-[12Apr2025 16:07:55.158] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
-[12Apr2025 16:07:55.240] [modloading-worker-0/INFO] [io.github.apace100.apoli.Apoli/]: Apoli 1.20.1-2.9.0.8 has initialized. Ready to power up your game!
-[12Apr2025 16:07:55.479] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
-[12Apr2025 16:07:55.479] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
-[12Apr2025 16:07:55.479] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
-[12Apr2025 16:07:55.479] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
-[12Apr2025 16:07:55.479] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
-[12Apr2025 16:07:55.479] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
-[12Apr2025 16:07:55.479] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
-[12Apr2025 16:07:55.543] [modloading-worker-0/INFO] [HammerLib/]: Registered charge handler for type org.zeith.hammerlib.util.charging.fluid.FluidCharge - org.zeith.hammerlib.util.charging.impl.FluidChargeHandler@4b9b50f1
-[12Apr2025 16:07:55.544] [modloading-worker-0/INFO] [HammerLib/]: Registered charge handler for type org.zeith.hammerlib.util.charging.fe.FECharge - org.zeith.hammerlib.util.charging.impl.FEChargeHandler@6af9a7ee
-[12Apr2025 16:07:55.545] [modloading-worker-0/INFO] [HammerLib/]: Registered inventory lister org.zeith.hammerlib.util.charging.impl.VanillaPlayerInvLister
-[12Apr2025 16:07:55.566] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/hammerlib/core/test/machine/TileTestMachine; from hammerlib to register it's stuff.
-[12Apr2025 16:07:55.570] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/hammerlib/core/test/machine/RecipeTestMachine; from hammerlib to register it's stuff.
-[12Apr2025 16:07:55.571] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/hammerlib/core/test/machine/BlockTestMachine; from hammerlib to register it's stuff.
-[12Apr2025 16:07:55.572] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/hammerlib/core/recipes/replacers/WaterBottleReplacer; from hammerlib to register it's stuff.
-[12Apr2025 16:07:55.573] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/hammerlib/core/recipes/replacers/RemainingReplacerRegistrar; from hammerlib to register it's stuff.
-[12Apr2025 16:07:55.575] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/hammerlib/core/init/SourceTypesHL; from hammerlib to register it's stuff.
-[12Apr2025 16:07:55.576] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/hammerlib/core/init/RecipesHL; from hammerlib to register it's stuff.
-[12Apr2025 16:07:55.576] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/hammerlib/core/init/LevelActionTypesHL; from hammerlib to register it's stuff.
-[12Apr2025 16:07:55.576] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/hammerlib/core/init/ItemsHL; from hammerlib to register it's stuff.
-[12Apr2025 16:07:55.576] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/hammerlib/core/init/GearsHL; from hammerlib to register it's stuff.
-[12Apr2025 16:07:55.577] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/hammerlib/api/forge/ContainerAPI; from hammerlib to register it's stuff.
-[12Apr2025 16:07:55.577] [modloading-worker-0/INFO] [HammerLib/]: Injecting setup into org.zeith.hammerlib.net.Network
-[12Apr2025 16:07:55.665] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[12Apr2025 16:07:55.665] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[12Apr2025 16:07:55.759] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/improvableskills/init/SkillsIS; from improvableskills to register it's stuff.
-[12Apr2025 16:07:55.759] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/improvableskills/init/RecipeTypesIS; from improvableskills to register it's stuff.
-[12Apr2025 16:07:55.759] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/improvableskills/init/ParticleTypesIS; from improvableskills to register it's stuff.
-[12Apr2025 16:07:55.759] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/improvableskills/init/PageletsIS; from improvableskills to register it's stuff.
-[12Apr2025 16:07:55.759] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/improvableskills/init/ItemsIS; from improvableskills to register it's stuff.
-[12Apr2025 16:07:55.760] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/improvableskills/init/GuiHooksIS; from improvableskills to register it's stuff.
-[12Apr2025 16:07:55.760] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/improvableskills/init/AbilitiesIS; from improvableskills to register it's stuff.
-[12Apr2025 16:07:55.761] [modloading-worker-0/INFO] [HammerLib/]: Injecting config setup into class org.zeith.improvableskills.cfg.ConfigsIS
-[12Apr2025 16:07:55.974] [modloading-worker-0/INFO] [Calio/]: Calio 1.20.1-1.11.0.5 initializing...
-[12Apr2025 16:07:56.406] [modloading-worker-0/INFO] [io.github.apace100.origins.Origins/]: Origins 1.20.1-1.10.0.9 is initializing. Have fun!
-[12Apr2025 16:07:56.586] [modloading-worker-0/INFO] [dev.limonblaze.originsclasses.OriginsClasses/]: Origins:Classes 1.2.1 has initialized. Time for work!
-[12Apr2025 16:07:57.456] [modloading-worker-0/INFO] [Chunk Pregenerator/]: Loading Plugin: [name=JourneyMap]
-[12Apr2025 16:07:57.652] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[12Apr2025 16:07:58.024] [modloading-worker-0/INFO] [simplyswords/]: Registering Gobber compat Items for simplyswords
-[12Apr2025 16:08:00.564] [modloading-worker-0/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading Open Parties and Claims!
-[12Apr2025 16:08:00.585] [modloading-worker-0/INFO] [HammerLib/]: Setup HammerLib networking!
-[12Apr2025 16:08:00.709] [modloading-worker-0/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 201/200 at level 20, making this level unobtainable.
-[12Apr2025 16:08:00.709] [modloading-worker-0/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 211/200 at level 21, making this level unobtainable.
-[12Apr2025 16:08:00.710] [modloading-worker-0/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 221/200 at level 22, making this level unobtainable.
-[12Apr2025 16:08:00.710] [modloading-worker-0/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 231/200 at level 23, making this level unobtainable.
-[12Apr2025 16:08:00.711] [modloading-worker-0/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 241/200 at level 24, making this level unobtainable.
-[12Apr2025 16:08:00.711] [modloading-worker-0/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 251/200 at level 25, making this level unobtainable.
-[12Apr2025 16:08:00.711] [modloading-worker-0/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 261/200 at level 26, making this level unobtainable.
-[12Apr2025 16:08:00.712] [modloading-worker-0/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 271/200 at level 27, making this level unobtainable.
-[12Apr2025 16:08:00.712] [modloading-worker-0/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 281/200 at level 28, making this level unobtainable.
-[12Apr2025 16:08:00.717] [modloading-worker-0/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 291/200 at level 29, making this level unobtainable.
-[12Apr2025 16:08:00.718] [modloading-worker-0/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 301/200 at level 30, making this level unobtainable.
-[12Apr2025 16:08:00.729] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
-[12Apr2025 16:08:00.767] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszsdifficulty] Starting version check at https://raw.githubusercontent.com/Majrusz/MinecraftCommon/main/ProgressiveDifficulty/update.json
-[12Apr2025 16:08:00.823] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
-[12Apr2025 16:08:00.860] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 1 plugin(s)
-[12Apr2025 16:08:00.860] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
-[12Apr2025 16:08:00.893] [modloading-worker-0/INFO] [Sound Physics - General/]: Initializing Simple Voice Chat integration
-[12Apr2025 16:08:00.893] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 1 plugin(s)
-[12Apr2025 16:08:00.895] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Registering events for 'sound_physics_remastered'
-[12Apr2025 16:08:01.140] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszsdifficulty] Found status: UP_TO_DATE Current: 1.9.10 Target: null
-[12Apr2025 16:08:01.140] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [hammerlib] Starting version check at https://api.modrinth.com/updates/PlkSuVtM/forge_updates.json
-[12Apr2025 16:08:01.260] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [hammerlib] Found status: UP_TO_DATE Current: 20.1.50 Target: null
-[12Apr2025 16:08:01.261] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
-[12Apr2025 16:08:01.386] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[14Apr2025 17:22:50.503] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[14Apr2025 17:22:50.511] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
+[14Apr2025 17:22:53.471] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[14Apr2025 17:22:53.541] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/turbo-palm-tree/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[14Apr2025 17:22:54.080] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/turbo-palm-tree/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[14Apr2025 17:22:54.081] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/turbo-palm-tree/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[14Apr2025 17:22:54.084] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/turbo-palm-tree/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[14Apr2025 17:22:54.086] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/turbo-palm-tree/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[14Apr2025 17:22:54.447] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[14Apr2025 17:22:54.449] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: geckolib. Using Mod File: /workspaces/turbo-palm-tree/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.9.jar
+[14Apr2025 17:22:54.449] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
+[14Apr2025 17:22:58.181] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[14Apr2025 17:22:58.406] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[14Apr2025 17:22:58.409] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[14Apr2025 17:22:58.433] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[14Apr2025 17:22:58.699] [main/WARN] [mixin/]: Reference map 'CerbonsAPI-Forge-1.20.1-forge-refmap.json' for cerbons_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[14Apr2025 17:22:58.721] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[14Apr2025 17:22:59.888] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[14Apr2025 17:22:59.898] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[14Apr2025 17:23:00.100] [main/WARN] [mixin/]: Error loading class: dev/latvian/mods/kubejs/recipe/RecipesEventJS (java.lang.ClassNotFoundException: dev.latvian.mods.kubejs.recipe.RecipesEventJS)
+[14Apr2025 17:23:00.100] [main/WARN] [mixin/]: @Mixin target dev.latvian.mods.kubejs.recipe.RecipesEventJS was not found mixins.hammerlib.json:bs.kubejs.RecipeEventJSMixin
+[14Apr2025 17:23:00.213] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/inventory/AnvilMenu
+[14Apr2025 17:23:00.831] [main/WARN] [mixin/]: Error loading class: org/violetmoon/quark/content/tweaks/module/GoldToolsHaveFortuneModule (java.lang.ClassNotFoundException: org.violetmoon.quark.content.tweaks.module.GoldToolsHaveFortuneModule)
+[14Apr2025 17:23:00.834] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[14Apr2025 17:23:00.835] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[14Apr2025 17:23:01.315] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/entity/container/CookingPotResultSlot (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.entity.container.CookingPotResultSlot)
+[14Apr2025 17:23:01.315] [main/WARN] [mixin/]: @Mixin target vectorwing.farmersdelight.common.block.entity.container.CookingPotResultSlot was not found origins_classes.mixins.json:common.farmersdelight.CookingPotResultSlotMixin
+[14Apr2025 17:23:01.317] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/item/SkilletItem (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.item.SkilletItem)
+[14Apr2025 17:23:01.318] [main/WARN] [mixin/]: @Mixin target vectorwing.farmersdelight.common.item.SkilletItem was not found origins_classes.mixins.json:common.farmersdelight.SkilletItemMixin
+[14Apr2025 17:23:01.346] [main/WARN] [mixin/]: Error loading class: se/mickelus/tetra/blocks/workbench/WorkbenchTile (java.lang.ClassNotFoundException: se.mickelus.tetra.blocks.workbench.WorkbenchTile)
+[14Apr2025 17:23:01.346] [main/WARN] [mixin/]: @Mixin target se.mickelus.tetra.blocks.workbench.WorkbenchTile was not found origins_classes.mixins.json:common.tetra.WorkbenchTileMixin
+[14Apr2025 17:23:01.768] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching FishingHook#catchingFish
+[14Apr2025 17:23:01.941] [main/WARN] [mixin/]: Error loading class: com/teammetallurgy/aquaculture/entity/AquaFishingBobberEntity (java.lang.ClassNotFoundException: com.teammetallurgy.aquaculture.entity.AquaFishingBobberEntity)
+[14Apr2025 17:23:02.426] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[14Apr2025 17:23:05.488] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/CreativeModeTabs
+[14Apr2025 17:23:07.679] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[14Apr2025 17:23:07.680] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[14Apr2025 17:23:07.831] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/inventory/AnvilMenu
+[14Apr2025 17:23:07.836] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in com/mrcrayfish/goblintraders/Hooks
+[14Apr2025 17:23:10.308] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching FishingHook#catchingFish
+[14Apr2025 17:23:10.760] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+[14Apr2025 17:23:10.761] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isDiscoverable() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+[14Apr2025 17:23:13.197] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[14Apr2025 17:23:13.201] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[14Apr2025 17:23:13.207] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[14Apr2025 17:23:13.211] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[14Apr2025 17:23:13.212] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[14Apr2025 17:23:13.218] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[14Apr2025 17:23:13.219] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[14Apr2025 17:23:13.225] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[14Apr2025 17:23:13.501] [modloading-worker-0/INFO] [io.github.apace100.apoli.Apoli/]: Apoli 1.20.1-2.9.0.8 has initialized. Ready to power up your game!
+[14Apr2025 17:23:13.788] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[14Apr2025 17:23:13.791] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[14Apr2025 17:23:13.793] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[14Apr2025 17:23:13.793] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[14Apr2025 17:23:13.793] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[14Apr2025 17:23:13.793] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[14Apr2025 17:23:13.794] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[14Apr2025 17:23:14.135] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[14Apr2025 17:23:14.136] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[14Apr2025 17:23:14.246] [modloading-worker-0/INFO] [HammerLib/]: Registered charge handler for type org.zeith.hammerlib.util.charging.fluid.FluidCharge - org.zeith.hammerlib.util.charging.impl.FluidChargeHandler@7efeca01
+[14Apr2025 17:23:14.256] [modloading-worker-0/INFO] [HammerLib/]: Registered charge handler for type org.zeith.hammerlib.util.charging.fe.FECharge - org.zeith.hammerlib.util.charging.impl.FEChargeHandler@717ae4b8
+[14Apr2025 17:23:14.259] [modloading-worker-0/INFO] [HammerLib/]: Registered inventory lister org.zeith.hammerlib.util.charging.impl.VanillaPlayerInvLister
+[14Apr2025 17:23:14.307] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/hammerlib/core/test/machine/TileTestMachine; from hammerlib to register it's stuff.
+[14Apr2025 17:23:14.312] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/hammerlib/core/test/machine/RecipeTestMachine; from hammerlib to register it's stuff.
+[14Apr2025 17:23:14.316] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/hammerlib/core/test/machine/BlockTestMachine; from hammerlib to register it's stuff.
+[14Apr2025 17:23:14.317] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/hammerlib/core/recipes/replacers/WaterBottleReplacer; from hammerlib to register it's stuff.
+[14Apr2025 17:23:14.317] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/hammerlib/core/recipes/replacers/RemainingReplacerRegistrar; from hammerlib to register it's stuff.
+[14Apr2025 17:23:14.317] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/hammerlib/core/init/SourceTypesHL; from hammerlib to register it's stuff.
+[14Apr2025 17:23:14.317] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/hammerlib/core/init/RecipesHL; from hammerlib to register it's stuff.
+[14Apr2025 17:23:14.318] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/hammerlib/core/init/LevelActionTypesHL; from hammerlib to register it's stuff.
+[14Apr2025 17:23:14.318] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/hammerlib/core/init/ItemsHL; from hammerlib to register it's stuff.
+[14Apr2025 17:23:14.318] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/hammerlib/core/init/GearsHL; from hammerlib to register it's stuff.
+[14Apr2025 17:23:14.318] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/hammerlib/api/forge/ContainerAPI; from hammerlib to register it's stuff.
+[14Apr2025 17:23:14.325] [modloading-worker-0/INFO] [HammerLib/]: Injecting setup into org.zeith.hammerlib.net.Network
+[14Apr2025 17:23:14.460] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/improvableskills/init/SkillsIS; from improvableskills to register it's stuff.
+[14Apr2025 17:23:14.461] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/improvableskills/init/RecipeTypesIS; from improvableskills to register it's stuff.
+[14Apr2025 17:23:14.462] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/improvableskills/init/ParticleTypesIS; from improvableskills to register it's stuff.
+[14Apr2025 17:23:14.462] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/improvableskills/init/PageletsIS; from improvableskills to register it's stuff.
+[14Apr2025 17:23:14.462] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/improvableskills/init/ItemsIS; from improvableskills to register it's stuff.
+[14Apr2025 17:23:14.463] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/improvableskills/init/GuiHooksIS; from improvableskills to register it's stuff.
+[14Apr2025 17:23:14.463] [modloading-worker-0/INFO] [HammerLib/]: Hooked Lorg/zeith/improvableskills/init/AbilitiesIS; from improvableskills to register it's stuff.
+[14Apr2025 17:23:14.465] [modloading-worker-0/INFO] [HammerLib/]: Injecting config setup into class org.zeith.improvableskills.cfg.ConfigsIS
+[14Apr2025 17:23:14.656] [modloading-worker-0/INFO] [Calio/]: Calio 1.20.1-1.11.0.5 initializing...
+[14Apr2025 17:23:14.851] [modloading-worker-0/INFO] [io.github.apace100.origins.Origins/]: Origins 1.20.1-1.10.0.9 is initializing. Have fun!
+[14Apr2025 17:23:15.110] [modloading-worker-0/INFO] [dev.limonblaze.originsclasses.OriginsClasses/]: Origins:Classes 1.2.1 has initialized. Time for work!
+[14Apr2025 17:23:16.346] [modloading-worker-0/INFO] [Chunk Pregenerator/]: Loading Plugin: [name=JourneyMap]
+[14Apr2025 17:23:16.565] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[14Apr2025 17:23:16.994] [modloading-worker-0/INFO] [simplyswords/]: Registering Gobber compat Items for simplyswords
+[14Apr2025 17:23:20.236] [modloading-worker-0/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading Open Parties and Claims!
+[14Apr2025 17:23:20.282] [modloading-worker-0/INFO] [HammerLib/]: Setup HammerLib networking!
+[14Apr2025 17:23:20.516] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
+[14Apr2025 17:23:20.529] [modloading-worker-0/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 201/200 at level 20, making this level unobtainable.
+[14Apr2025 17:23:20.530] [modloading-worker-0/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 211/200 at level 21, making this level unobtainable.
+[14Apr2025 17:23:20.531] [modloading-worker-0/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 221/200 at level 22, making this level unobtainable.
+[14Apr2025 17:23:20.531] [modloading-worker-0/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 231/200 at level 23, making this level unobtainable.
+[14Apr2025 17:23:20.531] [modloading-worker-0/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 241/200 at level 24, making this level unobtainable.
+[14Apr2025 17:23:20.531] [modloading-worker-0/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 251/200 at level 25, making this level unobtainable.
+[14Apr2025 17:23:20.531] [modloading-worker-0/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 261/200 at level 26, making this level unobtainable.
+[14Apr2025 17:23:20.531] [modloading-worker-0/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 271/200 at level 27, making this level unobtainable.
+[14Apr2025 17:23:20.531] [modloading-worker-0/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 281/200 at level 28, making this level unobtainable.
+[14Apr2025 17:23:20.531] [modloading-worker-0/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 291/200 at level 29, making this level unobtainable.
+[14Apr2025 17:23:20.531] [modloading-worker-0/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 301/200 at level 30, making this level unobtainable.
+[14Apr2025 17:23:20.609] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszsdifficulty] Starting version check at https://raw.githubusercontent.com/Majrusz/MinecraftCommon/main/ProgressiveDifficulty/update.json
+[14Apr2025 17:23:20.655] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[14Apr2025 17:23:20.664] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 1 plugin(s)
+[14Apr2025 17:23:20.664] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[14Apr2025 17:23:20.672] [modloading-worker-0/INFO] [Sound Physics - General/]: Initializing Simple Voice Chat integration
+[14Apr2025 17:23:20.672] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 1 plugin(s)
+[14Apr2025 17:23:20.673] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Registering events for 'sound_physics_remastered'
+[14Apr2025 17:23:21.226] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszsdifficulty] Found status: UP_TO_DATE Current: 1.9.10 Target: null
+[14Apr2025 17:23:21.227] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [hammerlib] Starting version check at https://api.modrinth.com/updates/PlkSuVtM/forge_updates.json
+[14Apr2025 17:23:21.412] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [hammerlib] Found status: UP_TO_DATE Current: 20.1.50 Target: null
+[14Apr2025 17:23:21.413] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[14Apr2025 17:23:21.567] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
@@ -127,46 +127,46 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[12Apr2025 16:08:01.390] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
-[12Apr2025 16:08:01.683] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
-[12Apr2025 16:08:01.684] [modloading-worker-0/INFO] [xaero.common.MinimapLogs/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[12Apr2025 16:08:01.689] [main/INFO] [xaero.common.MinimapLogs/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[12Apr2025 16:08:01.689] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
-[12Apr2025 16:08:01.699] [modloading-worker-0/INFO] [HammerLib/]: Performed registerFoil from hammerlib. Determined constant(0xFFFFFF0F) foil provider
-[12Apr2025 16:08:01.700] [modloading-worker-0/INFO] [HammerLib/]: Performed registerFoil from hammerlib. Determined dynamic(org.zeith.hammerlib.client.CustomFoilConfigs$$Lambda$15782/0x0000703badef5a20@765c7aba) foil provider
-[12Apr2025 16:08:01.728] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at org.zeith.hammerlib.compat.jade.GetWaila
-[12Apr2025 16:08:01.739] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
-[12Apr2025 16:08:01.740] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at dev.shadowsoffire.apotheosis.spawn.compat.SpawnerHwylaPlugin
-[12Apr2025 16:08:01.741] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at dev.shadowsoffire.apotheosis.ench.compat.EnchHwylaPlugin
-[12Apr2025 16:08:01.743] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at dev.shadowsoffire.apotheosis.adventure.compat.AdventureHwylaPlugin
-[12Apr2025 16:08:01.744] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.corpse.integration.waila.PluginCorpse
-[12Apr2025 16:08:01.747] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[12Apr2025 16:08:01.756] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
-[12Apr2025 16:08:01.756] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
-[12Apr2025 16:08:01.763] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[12Apr2025 16:08:01.768] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[12Apr2025 16:08:01.770] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.hollingsworth.arsnouveau.client.waila.WailaArsNouveauPlugin
-[12Apr2025 16:08:01.771] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.lootr.LootrPlugin
-[12Apr2025 16:08:01.774] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.general.GeneralPlugin
-[12Apr2025 16:08:01.862] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 20.2.13 Target: 20.2.13
-[12Apr2025 16:08:01.862] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[12Apr2025 16:08:01.980] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[12Apr2025 16:08:01.980] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
-[12Apr2025 16:08:02.431] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: OUTDATED Current: 1.20.1-1.0.12 Target: 1.20.1-1.0.20
-[12Apr2025 16:08:02.432] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
-[12Apr2025 16:08:02.537] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: OUTDATED Current: 1.20.1-2.5.26 Target: 1.20.1-2.5.29
-[12Apr2025 16:08:02.537] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
-[12Apr2025 16:08:02.645] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: OUTDATED Current: 1.20.1-1.4.2 Target: 1.20.1-1.4.13
-[12Apr2025 16:08:02.646] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Starting version check at https://updates.blamejared.com/get?n=enchdesc&gv=1.20.1
-[12Apr2025 16:08:02.750] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Found status: BETA Current: 17.1.19 Target: 17.1.19
-[12Apr2025 16:08:02.751] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [improvableskills] Starting version check at https://api.modrinth.com/updates/9fT7HUaI/forge_updates.json
-[12Apr2025 16:08:02.779] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [improvableskills] Found status: UP_TO_DATE Current: 20.1.13 Target: null
-[12Apr2025 16:08:02.781] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
-[12Apr2025 16:08:02.801] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: UP_TO_DATE Current: 3.4.26 Target: null
-[12Apr2025 16:08:02.803] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamic_fps] Starting version check at https://api.lostluma.net/updates/dynamic-fps?platform=forge&provider=curseforge
-[12Apr2025 16:08:03.244] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamic_fps] Found status: OUTDATED Current: 3.4.3 Target: 3.9.2
-[12Apr2025 16:08:03.244] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[12Apr2025 16:08:03.269] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[14Apr2025 17:23:21.570] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[14Apr2025 17:23:21.982] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
+[14Apr2025 17:23:21.983] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
+[14Apr2025 17:23:22.088] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 20.2.13 Target: 20.2.13
+[14Apr2025 17:23:22.089] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[14Apr2025 17:23:22.120] [modloading-worker-0/INFO] [xaero.common.MinimapLogs/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[14Apr2025 17:23:22.121] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[14Apr2025 17:23:22.122] [main/INFO] [xaero.common.MinimapLogs/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[14Apr2025 17:23:22.123] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[14Apr2025 17:23:22.138] [modloading-worker-0/INFO] [HammerLib/]: Performed registerFoil from hammerlib. Determined constant(0xFFFFFF0F) foil provider
+[14Apr2025 17:23:22.144] [modloading-worker-0/INFO] [HammerLib/]: Performed registerFoil from hammerlib. Determined dynamic(org.zeith.hammerlib.client.CustomFoilConfigs$$Lambda$15784/0x00007dc151f07168@2b67391b) foil provider
+[14Apr2025 17:23:22.165] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at org.zeith.hammerlib.compat.jade.GetWaila
+[14Apr2025 17:23:22.186] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[14Apr2025 17:23:22.187] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at dev.shadowsoffire.apotheosis.spawn.compat.SpawnerHwylaPlugin
+[14Apr2025 17:23:22.190] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at dev.shadowsoffire.apotheosis.ench.compat.EnchHwylaPlugin
+[14Apr2025 17:23:22.191] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at dev.shadowsoffire.apotheosis.adventure.compat.AdventureHwylaPlugin
+[14Apr2025 17:23:22.193] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.corpse.integration.waila.PluginCorpse
+[14Apr2025 17:23:22.197] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[14Apr2025 17:23:22.217] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[14Apr2025 17:23:22.221] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[14Apr2025 17:23:22.226] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.hollingsworth.arsnouveau.client.waila.WailaArsNouveauPlugin
+[14Apr2025 17:23:22.227] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.lootr.LootrPlugin
+[14Apr2025 17:23:22.230] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.general.GeneralPlugin
+[14Apr2025 17:23:22.337] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[14Apr2025 17:23:22.338] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[14Apr2025 17:23:22.865] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: OUTDATED Current: 1.20.1-1.0.12 Target: 1.20.1-1.0.20
+[14Apr2025 17:23:22.865] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[14Apr2025 17:23:22.973] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: OUTDATED Current: 1.20.1-2.5.26 Target: 1.20.1-2.5.29
+[14Apr2025 17:23:22.974] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[14Apr2025 17:23:23.078] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: OUTDATED Current: 1.20.1-1.4.2 Target: 1.20.1-1.4.13
+[14Apr2025 17:23:23.078] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Starting version check at https://updates.blamejared.com/get?n=enchdesc&gv=1.20.1
+[14Apr2025 17:23:23.181] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Found status: BETA Current: 17.1.19 Target: 17.1.19
+[14Apr2025 17:23:23.182] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [improvableskills] Starting version check at https://api.modrinth.com/updates/9fT7HUaI/forge_updates.json
+[14Apr2025 17:23:23.237] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [improvableskills] Found status: UP_TO_DATE Current: 20.1.13 Target: null
+[14Apr2025 17:23:23.237] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
+[14Apr2025 17:23:23.248] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: UP_TO_DATE Current: 3.4.26 Target: null
+[14Apr2025 17:23:23.249] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamic_fps] Starting version check at https://api.lostluma.net/updates/dynamic-fps?platform=forge&provider=curseforge
+[14Apr2025 17:23:23.633] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamic_fps] Found status: OUTDATED Current: 3.4.3 Target: 3.9.3
+[14Apr2025 17:23:23.633] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[14Apr2025 17:23:23.659] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
@@ -181,481 +181,396 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[12Apr2025 16:08:03.270] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszlibrary] Starting version check at https://raw.githubusercontent.com/Majrusz/MinecraftCommon/main/Library/update.json
-[12Apr2025 16:08:03.287] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszlibrary] Found status: AHEAD Current: 7.0.8 Target: null
-[12Apr2025 16:08:04.438] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[12Apr2025 16:08:05.591] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/turbo-palm-tree/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23263!/assets/.mcassetsroot' uses unexpected schema
-[12Apr2025 16:08:05.591] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/turbo-palm-tree/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23263!/data/.mcassetsroot' uses unexpected schema
-[12Apr2025 16:08:06.611] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/server/commands/EnchantCommand
-[12Apr2025 16:08:06.945] [main/INFO] [Calio/]: CDRM Initialized with 16 registries
-[12Apr2025 16:08:06.977] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/forge/biome_modifier
-[12Apr2025 16:08:06.978] [Worker-Main-2/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/structure_placement
-[12Apr2025 16:08:06.978] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry minecraft:stat_type
-[12Apr2025 16:08:06.982] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/decorated_pot_patterns
-[12Apr2025 16:08:06.983] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry minecraft:sensor_type
-[12Apr2025 16:08:06.985] [Worker-Main-2/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/density_function
-[12Apr2025 16:08:06.987] [Worker-Main-2/WARN] [HammerLib/]: Unable to find registry for tag directory tags/chat_type
-[12Apr2025 16:08:06.987] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry apoli:bientity_condition
-[12Apr2025 16:08:06.988] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry apoli:configured_power
-[12Apr2025 16:08:06.989] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/trunk_placer_type
-[12Apr2025 16:08:06.990] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/int_provider_type
-[12Apr2025 16:08:06.994] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/flat_level_generator_preset
-[12Apr2025 16:08:06.995] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/banner_pattern
-[12Apr2025 16:08:06.996] [Worker-Main-2/WARN] [HammerLib/]: Unable to find registry for tag directory tags/game_events
-[12Apr2025 16:08:06.998] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry minecraft:activity
-[12Apr2025 16:08:06.998] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry apoli:item_action
-[12Apr2025 16:08:06.998] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry apoli:configured_biome_condition
-[12Apr2025 16:08:06.999] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry apoli:modifier
-[12Apr2025 16:08:06.999] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/trim_pattern
-[12Apr2025 16:08:07.000] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry apoli:entity_action
-[12Apr2025 16:08:07.001] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry minecraft:recipe_serializer
-[12Apr2025 16:08:07.001] [Worker-Main-2/WARN] [HammerLib/]: Unable to find registry for tag directory tags/dimension_type
-[12Apr2025 16:08:07.002] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/frog_variant
-[12Apr2025 16:08:07.002] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry minecraft:attribute
-[12Apr2025 16:08:07.003] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/structure_processor
-[12Apr2025 16:08:07.003] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/loot_pool_entry_type
-[12Apr2025 16:08:07.004] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry minecraft:particle_type
-[12Apr2025 16:08:07.005] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry minecraft:worldgen/foliage_placer_type
-[12Apr2025 16:08:07.006] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry minecraft:worldgen/block_state_provider_type
-[12Apr2025 16:08:07.007] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry apoli:bientity_action
-[12Apr2025 16:08:07.008] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry minecraft:menu
-[12Apr2025 16:08:07.009] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry apoli:fluid_condition
-[12Apr2025 16:08:07.010] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry apoli:configured_fluid_condition
-[12Apr2025 16:08:07.012] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry apoli:entity_condition
-[12Apr2025 16:08:07.013] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry botania:brews
-[12Apr2025 16:08:07.015] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry apoli:configured_bientity_action
-[12Apr2025 16:08:07.015] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry minecraft:recipe_type
-[12Apr2025 16:08:07.017] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry minecraft:block_entity_type
-[12Apr2025 16:08:07.018] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/biome_source
-[12Apr2025 16:08:07.017] [Worker-Main-2/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/structure_set
-[12Apr2025 16:08:07.020] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/lionfishapi/modded_biome_slices
-[12Apr2025 16:08:07.022] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry forge:global_loot_modifier_serializers
-[12Apr2025 16:08:07.024] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/chunk_generator
-[12Apr2025 16:08:07.026] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/placed_feature
-[12Apr2025 16:08:07.031] [Worker-Main-2/WARN] [HammerLib/]: Unable to find registry for tag directory tags/damage_type
-[12Apr2025 16:08:07.037] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry minecraft:worldgen/biome
-[12Apr2025 16:08:07.037] [Worker-Main-2/WARN] [HammerLib/]: Unable to find registry for tag directory tags/loot_nbt_provider_type
-[12Apr2025 16:08:07.040] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry minecraft:entity_type
-[12Apr2025 16:08:07.040] [Worker-Main-2/WARN] [HammerLib/]: Unable to find registry for tag directory tags/cat_variant
-[12Apr2025 16:08:07.042] [Worker-Main-2/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/world_preset
-[12Apr2025 16:08:07.045] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry apoli:global_power_set
-[12Apr2025 16:08:07.045] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/loot_condition_type
-[12Apr2025 16:08:07.047] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry minecraft:chunk_status
-[12Apr2025 16:08:07.047] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry apoli:configured_modifier
-[12Apr2025 16:08:07.048] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry minecraft:potion
-[12Apr2025 16:08:07.049] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry apoli:configured_block_action
-[12Apr2025 16:08:07.050] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry apoli:biome_condition
-[12Apr2025 16:08:07.052] [Worker-Main-2/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/structure_pool_element
-[12Apr2025 16:08:07.052] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/loot_function_type
-[12Apr2025 16:08:07.052] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry apoli:damage_condition
-[12Apr2025 16:08:07.054] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry apoli:configured_block_condition
-[12Apr2025 16:08:07.055] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry minecraft:fluid
-[12Apr2025 16:08:07.056] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry minecraft:worldgen/carver
-[12Apr2025 16:08:07.057] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/dimension
-[12Apr2025 16:08:07.057] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry apoli:configured_entity_action
-[12Apr2025 16:08:07.059] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry apoli:block_action
-[12Apr2025 16:08:07.059] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/configured_carver
-[12Apr2025 16:08:07.061] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry apoli:configured_item_condition
-[12Apr2025 16:08:07.059] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry forge:fluid_type
-[12Apr2025 16:08:07.061] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/position_source_type
-[12Apr2025 16:08:07.062] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/custom_stat
-[12Apr2025 16:08:07.063] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry minecraft:point_of_interest_type
-[12Apr2025 16:08:07.064] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/processor_list
-[12Apr2025 16:08:07.064] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry apoli:item_condition
-[12Apr2025 16:08:07.066] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/template_pool
-[12Apr2025 16:08:07.069] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry apoli:configured_damage_condition
-[12Apr2025 16:08:07.072] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry apoli:configured_entity_condition
-[12Apr2025 16:08:07.073] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/block_predicate_type
-[12Apr2025 16:08:07.074] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/loot_number_provider_type
-[12Apr2025 16:08:07.076] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry minecraft:worldgen/tree_decorator_type
-[12Apr2025 16:08:07.078] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/height_provider_type
-[12Apr2025 16:08:07.079] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry minecraft:painting_variant
-[12Apr2025 16:08:07.081] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry apoli:power_factory
-[12Apr2025 16:08:07.082] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry minecraft:memory_module_type
-[12Apr2025 16:08:07.084] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/pos_rule_test
-[12Apr2025 16:08:07.085] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/feature_size_type
-[12Apr2025 16:08:07.087] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry minecraft:schedule
-[12Apr2025 16:08:07.088] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry minecraft:villager_profession
-[12Apr2025 16:08:07.090] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry minecraft:sound_event
-[12Apr2025 16:08:07.092] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/placement_modifier_type
-[12Apr2025 16:08:07.093] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/loot_score_provider_type
-[12Apr2025 16:08:07.095] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/structure_piece
-[12Apr2025 16:08:07.096] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/structure_type
-[12Apr2025 16:08:07.097] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry minecraft:enchantment
-[12Apr2025 16:08:07.100] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry apoli:configured_bientity_condition
-[12Apr2025 16:08:07.103] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry apoli:block_condition
-[12Apr2025 16:08:07.105] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/rule_block_entity_modifier
-[12Apr2025 16:08:07.109] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/density_function_type
-[12Apr2025 16:08:07.111] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry apoli:configured_item_action
-[12Apr2025 16:08:07.113] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry minecraft:mob_effect
-[12Apr2025 16:08:07.114] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/noise
-[12Apr2025 16:08:07.155] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/instrument
-[12Apr2025 16:08:07.159] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/root_placer_type
-[12Apr2025 16:08:07.162] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry minecraft:worldgen/feature
-[12Apr2025 16:08:07.164] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/noise_settings
-[12Apr2025 16:08:07.168] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/forge/structure_modifier
-[12Apr2025 16:08:07.177] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/structure
-[12Apr2025 16:08:07.181] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/creative_mode_tab
-[12Apr2025 16:08:07.184] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/configured_feature
-[12Apr2025 16:08:07.185] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry minecraft:command_argument_type
-[12Apr2025 16:08:07.186] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/float_provider_type
-[12Apr2025 16:08:07.187] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/material_rule
-[12Apr2025 16:08:07.188] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/multi_noise_biome_source_parameter_list
-[12Apr2025 16:08:07.189] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/villager_type
-[12Apr2025 16:08:07.190] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/rule_test
-[12Apr2025 16:08:07.192] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry forge:entity_data_serializers
-[12Apr2025 16:08:07.193] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/trim_material
-[12Apr2025 16:08:07.195] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/material_condition
-[12Apr2025 16:08:07.202] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry minecraft:block
-[12Apr2025 16:08:07.224] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry minecraft:item
-[12Apr2025 16:08:07.450] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:silent_foot' into LootTable 'minecraft:entities/warden'!
-[12Apr2025 16:08:07.466] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/ancient_city_ice_box'!
-[12Apr2025 16:08:07.684] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/bastion_treasure'!
-[12Apr2025 16:08:07.690] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:chests/campsite_barrel/cobwebs'!
-[12Apr2025 16:08:07.703] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/underwater_ruin_big'!
-[12Apr2025 16:08:07.709] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'apotheosis:chests/spawner_brutal_rotate'!
-[12Apr2025 16:08:07.732] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/shipwreck_map'!
-[12Apr2025 16:08:07.737] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'sophisticatedbackpacks:inject/chests/abandoned_mineshaft'!
-[12Apr2025 16:08:07.753] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'apotheosis:chests/chest_valuable'!
-[12Apr2025 16:08:07.760] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterfortresses:chests/puzzle'!
-[12Apr2025 16:08:07.819] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/abandoned_mineshaft'!
-[12Apr2025 16:08:07.834] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:atkdmg_ranged' into LootTable 'minecraft:entities/skeleton'!
-[12Apr2025 16:08:07.836] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:ender_manipulator' into LootTable 'minecraft:entities/enderman'!
-[12Apr2025 16:08:07.854] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/ancient_city'!
-[12Apr2025 16:08:07.899] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'cataclysm:chests/frosted_prison_treasure'!
-[12Apr2025 16:08:07.917] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:obsidian_skin' into LootTable 'minecraft:chests/nether_bridge'!
-[12Apr2025 16:08:07.917] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/nether_bridge'!
-[12Apr2025 16:08:07.970] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'apotheosis:chests/spawner_brutal'!
-[12Apr2025 16:08:07.980] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'apotheosis:chests/spawner_swarm'!
-[12Apr2025 16:08:07.996] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterfortresses:chests/keep'!
-[12Apr2025 16:08:08.041] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/village/village_desert_house'!
-[12Apr2025 16:08:08.054] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterfortresses:chests/storage'!
-[12Apr2025 16:08:08.065] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/stronghold_corridor'!
-[12Apr2025 16:08:08.079] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterdungeons:skeleton_dungeon/chests/middle'!
-[12Apr2025 16:08:08.093] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/firewell_d'!
-[12Apr2025 16:08:08.098] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterstrongholds:chests/prison_lg'!
-[12Apr2025 16:08:08.102] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/underwater_ruin_small'!
-[12Apr2025 16:08:08.122] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterdungeons:skeleton_dungeon/chests/common'!
-[12Apr2025 16:08:08.142] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:xp_plus' into LootTable 'minecraft:entities/elder_guardian'!
-[12Apr2025 16:08:08.152] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:chests/campsite_barrel/ores'!
-[12Apr2025 16:08:08.155] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/village/village_weaponsmith'!
-[12Apr2025 16:08:08.161] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:mob_repellent' into LootTable 'minecraft:chests/village/village_armorer'!
-[12Apr2025 16:08:08.169] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/bastion_hoglin_stable'!
-[12Apr2025 16:08:08.193] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'sophisticatedbackpacks:inject/chests/woodland_mansion'!
-[12Apr2025 16:08:08.223] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/village/village_toolsmith'!
-[12Apr2025 16:08:08.240] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/igloo_chest'!
-[12Apr2025 16:08:08.250] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:silent_foot' into LootTable 'minecraft:chests/ancient_city'!
-[12Apr2025 16:08:08.250] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/ancient_city'!
-[12Apr2025 16:08:08.291] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/village/village_snowy_house'!
-[12Apr2025 16:08:08.320] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'cisco_mod:chests/tower_loot'!
-[12Apr2025 16:08:08.354] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/farm_drop'!
-[12Apr2025 16:08:08.392] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/jungle_temple'!
-[12Apr2025 16:08:08.397] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:chests/campsite_barrel/food'!
-[12Apr2025 16:08:08.402] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'lootr:chests/elytra'!
-[12Apr2025 16:08:08.408] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/village/village_butcher'!
-[12Apr2025 16:08:08.429] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterstrongholds:chests/library_md'!
-[12Apr2025 16:08:08.435] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterfortresses:chests/hall'!
-[12Apr2025 16:08:08.443] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterstrongholds:chests/crypt'!
-[12Apr2025 16:08:08.447] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:growth' into LootTable 'minecraft:chests/jungle_temple'!
-[12Apr2025 16:08:08.447] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/jungle_temple'!
-[12Apr2025 16:08:08.457] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterfortresses:chests/extra'!
-[12Apr2025 16:08:08.472] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterstrongholds:chests/grand_library'!
-[12Apr2025 16:08:08.507] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:health' into LootTable 'minecraft:chests/end_city_treasure'!
-[12Apr2025 16:08:08.507] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/end_city_treasure'!
-[12Apr2025 16:08:08.516] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/chest_level_1'!
-[12Apr2025 16:08:08.520] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/chest_level_2'!
-[12Apr2025 16:08:08.527] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/chest_level_3'!
-[12Apr2025 16:08:08.533] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:chests/campsite_barrel/crops'!
-[12Apr2025 16:08:08.560] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:enchanter' into LootTable 'minecraft:chests/stronghold_library'!
-[12Apr2025 16:08:08.560] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/stronghold_library'!
-[12Apr2025 16:08:08.566] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/village/village_savanna_house'!
-[12Apr2025 16:08:08.581] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:chests/campsite_barrel/rails'!
-[12Apr2025 16:08:08.597] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/ruined_portal'!
-[12Apr2025 16:08:08.603] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/igloo_chest'!
-[12Apr2025 16:08:08.618] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/buried_treasure'!
-[12Apr2025 16:08:08.637] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:silent_foot' into LootTable 'minecraft:chests/ancient_city_ice_box'!
-[12Apr2025 16:08:08.637] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/ancient_city_ice_box'!
-[12Apr2025 16:08:08.640] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:generic_protection' into LootTable 'minecraft:chests/simple_dungeon'!
-[12Apr2025 16:08:08.641] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/simple_dungeon'!
-[12Apr2025 16:08:08.674] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/shipwreck_treasure'!
-[12Apr2025 16:08:08.691] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'sophisticatedbackpacks:inject/chests/desert_pyramid'!
-[12Apr2025 16:08:08.703] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/ruined_portal'!
-[12Apr2025 16:08:08.711] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/village/village_tannery'!
-[12Apr2025 16:08:08.731] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/desert_pyramid'!
-[12Apr2025 16:08:08.743] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'apotheosis:chests/tome_tower'!
-[12Apr2025 16:08:08.746] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterstrongholds:chests/armoury'!
-[12Apr2025 16:08:08.760] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/shipwreck_supply'!
-[12Apr2025 16:08:08.769] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:alchemist' into LootTable 'minecraft:entities/witch'!
-[12Apr2025 16:08:08.779] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:chests/campsite_barrel/minecarts'!
-[12Apr2025 16:08:08.793] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/village/village_temple'!
-[12Apr2025 16:08:08.804] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'mowziesmobs:chests/umvuthana_grove_chest'!
-[12Apr2025 16:08:08.828] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterstrongholds:chests/mess'!
-[12Apr2025 16:08:08.855] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/basic_chest'!
-[12Apr2025 16:08:08.862] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/stronghold_crossing'!
-[12Apr2025 16:08:08.881] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterfortresses:chests/worship'!
-[12Apr2025 16:08:08.890] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'sophisticatedbackpacks:inject/chests/shipwreck_treasure'!
-[12Apr2025 16:08:08.902] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterstrongholds:chests/treasure'!
-[12Apr2025 16:08:08.933] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterdungeons:zombie_dungeon/chests/special'!
-[12Apr2025 16:08:08.939] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:dexterous_arms' into LootTable 'minecraft:chests/abandoned_mineshaft'!
-[12Apr2025 16:08:08.939] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/abandoned_mineshaft'!
-[12Apr2025 16:08:08.950] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/shipwreck_treasure'!
-[12Apr2025 16:08:08.997] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/stronghold_corridor'!
-[12Apr2025 16:08:09.006] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/pillager_outpost'!
-[12Apr2025 16:08:09.023] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterfortresses:chests/obsidian'!
-[12Apr2025 16:08:09.031] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:chests/campsite_barrel/cobblestone'!
-[12Apr2025 16:08:09.055] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/shater'!
-[12Apr2025 16:08:09.061] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:luck_of_the_sea' into LootTable 'minecraft:gameplay/fishing'!
-[12Apr2025 16:08:09.066] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterfortresses:chests/beacon'!
-[12Apr2025 16:08:09.072] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'sophisticatedbackpacks:inject/chests/bastion_treasure'!
-[12Apr2025 16:08:09.094] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterdungeons:spider_dungeon/chests/egg_room'!
-[12Apr2025 16:08:09.108] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/nether_bridge'!
-[12Apr2025 16:08:09.121] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:chests/campsite_barrel/gems'!
-[12Apr2025 16:08:09.131] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/spawn_bonus_chest'!
-[12Apr2025 16:08:09.157] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/buried_treasure'!
-[12Apr2025 16:08:09.171] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/village/village_taiga_house'!
-[12Apr2025 16:08:09.177] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterdungeons:small_dungeon/chests/loot_piles'!
-[12Apr2025 16:08:09.193] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterdungeons:zombie_dungeon/chests/common'!
-[12Apr2025 16:08:09.212] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterfortresses:chests/quarters'!
-[12Apr2025 16:08:09.223] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:chests/campsite_barrel'!
-[12Apr2025 16:08:09.224] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:soul_speed' into LootTable 'minecraft:gameplay/piglin_bartering'!
-[12Apr2025 16:08:09.233] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:chests/campsite_chest'!
-[12Apr2025 16:08:09.240] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:treasure_sands' into LootTable 'minecraft:chests/desert_pyramid'!
-[12Apr2025 16:08:09.240] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/desert_pyramid'!
-[12Apr2025 16:08:09.245] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterstrongholds:chests/trap'!
-[12Apr2025 16:08:09.250] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/spawn_bonus_chest'!
-[12Apr2025 16:08:09.263] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/underwater_ruin_big'!
-[12Apr2025 16:08:09.270] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'sophisticatedbackpacks:inject/chests/end_city_treasure'!
-[12Apr2025 16:08:09.275] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterdungeons:small_nether_dungeon/chests/common'!
-[12Apr2025 16:08:09.284] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'sophisticatedbackpacks:inject/chests/simple_dungeon'!
-[12Apr2025 16:08:09.303] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'sophisticatedbackpacks:inject/chests/nether_bridge'!
-[12Apr2025 16:08:09.322] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/woodland_mansion'!
-[12Apr2025 16:08:09.332] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterstrongholds:chests/common'!
-[12Apr2025 16:08:09.358] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/bastion_bridge'!
-[12Apr2025 16:08:09.448] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:chests/campsite_barrel/ingots'!
-[12Apr2025 16:08:09.455] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/pillager_outpost'!
-[12Apr2025 16:08:09.484] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterdungeons:zombie_dungeon/chests/tombstone'!
-[12Apr2025 16:08:09.498] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/end_city_treasure'!
-[12Apr2025 16:08:09.508] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/jungle_temple_dispenser'!
-[12Apr2025 16:08:09.529] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/bastion_hoglin_stable'!
-[12Apr2025 16:08:09.585] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterstrongholds:chests/cmd_yung'!
-[12Apr2025 16:08:09.652] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/bastion_other'!
-[12Apr2025 16:08:09.661] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/village/village_plains_house'!
-[12Apr2025 16:08:09.668] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/bastion_treasure'!
-[12Apr2025 16:08:09.680] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:chests/campsite_barrel/tnt'!
-[12Apr2025 16:08:09.696] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/woodland_mansion'!
-[12Apr2025 16:08:09.703] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/village/village_armorer'!
-[12Apr2025 16:08:09.711] [Worker-Main-3/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:huckster' into LootTable 'minecraft:gameplay/hero_of_the_village/librarian_gift'!
-[12Apr2025 16:08:09.751] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:arphex:entities/long_legs}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[12Apr2025 16:08:09.751] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:arphex:entities/silverfish_spectre}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[12Apr2025 16:08:09.751] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:arphex:entities/millipede_marauder}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[12Apr2025 16:08:09.754] [main/INFO] [placebo/]: Registered 34 additional loot tables.
-[12Apr2025 16:08:09.809] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe ars_elemental:jeed/hellfire_burn as it's serializer returned null
-[12Apr2025 16:08:09.842] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe ars_elemental:jeed/watery_grave as it's serializer returned null
-[12Apr2025 16:08:09.849] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe botany_pots:ars_elemental/flashing_archwood as it's serializer returned null
-[12Apr2025 16:08:09.863] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe ars_elemental:jeed/life_link as it's serializer returned null
-[12Apr2025 16:08:09.870] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe ars_elemental:jeed/entrhalled as it's serializer returned null
-[12Apr2025 16:08:09.874] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe ars_elemental:jeed/mana_shield as it's serializer returned null
-[12Apr2025 16:08:09.901] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 41 recipes
-[12Apr2025 16:08:09.909] [main/ERROR] [HammerLib/]: Register attachment for RegisterRecipesEvent: org.zeith.hammerlib.core.test.HammerLibRecipeExtension.
-[12Apr2025 16:08:09.909] [main/ERROR] [HammerLib/]: Register attachment for RegisterRecipesEvent: org.zeith.improvableskills.api.recipe.Is3RecipeBuilderExtension.
-[12Apr2025 16:08:09.923] [main/INFO] [HammerLib/]: Reloading HammerLib recipes...
-[12Apr2025 16:08:09.923] [main/INFO] [HammerLib/]: HammerLib injected 16 recipes into recipe map. Removed 0 recipes from the game.
-[12Apr2025 16:08:09.926] [main/INFO] [HammerLib/]: Registered 16 additional recipes.
-[12Apr2025 16:08:09.927] [main/WARN] [HammerLib/]: Unable to find registry for tag directory tags/functions
-[12Apr2025 16:08:10.063] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2901 advancements
-[12Apr2025 16:08:10.074] [main/INFO] [placebo/]: Registered 26 additional recipes.
-[12Apr2025 16:08:10.087] [main/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 201/200 at level 20, making this level unobtainable.
-[12Apr2025 16:08:10.087] [main/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 211/200 at level 21, making this level unobtainable.
-[12Apr2025 16:08:10.087] [main/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 221/200 at level 22, making this level unobtainable.
-[12Apr2025 16:08:10.087] [main/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 231/200 at level 23, making this level unobtainable.
-[12Apr2025 16:08:10.087] [main/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 241/200 at level 24, making this level unobtainable.
-[12Apr2025 16:08:10.087] [main/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 251/200 at level 25, making this level unobtainable.
-[12Apr2025 16:08:10.087] [main/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 261/200 at level 26, making this level unobtainable.
-[12Apr2025 16:08:10.087] [main/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 271/200 at level 27, making this level unobtainable.
-[12Apr2025 16:08:10.087] [main/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 281/200 at level 28, making this level unobtainable.
-[12Apr2025 16:08:10.087] [main/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 291/200 at level 29, making this level unobtainable.
-[12Apr2025 16:08:10.087] [main/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 301/200 at level 30, making this level unobtainable.
-[12Apr2025 16:08:10.211] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
-[12Apr2025 16:08:10.217] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
-[12Apr2025 16:08:10.241] [main/INFO] [placebo/]: Registered 16 gear_sets.
-[12Apr2025 16:08:10.247] [main/INFO] [Apotheosis : Enchantment/]: Registered 29 enchanting_stats.
-[12Apr2025 16:08:10.249] [main/INFO] [Apotheosis : Adventure/]: Registered 6 rarities.
-[12Apr2025 16:08:10.264] [main/INFO] [Apotheosis : Adventure/]: Registered 81 affixes.
-[12Apr2025 16:08:10.269] [main/ERROR] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:mythic for category helmetRequired: 3; Provided: 2
-[12Apr2025 16:08:10.270] [main/ERROR] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:mythic for category bootsRequired: 3; Provided: 2
-[12Apr2025 16:08:10.270] [main/ERROR] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category bowRequired: 5; Provided: 4
-[12Apr2025 16:08:10.270] [main/ERROR] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category crossbowRequired: 5; Provided: 4
-[12Apr2025 16:08:10.270] [main/ERROR] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category pickaxeRequired: 5; Provided: 4
-[12Apr2025 16:08:10.271] [main/ERROR] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category shovelRequired: 5; Provided: 4
-[12Apr2025 16:08:10.271] [main/ERROR] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category shieldRequired: 5; Provided: 4
-[12Apr2025 16:08:10.271] [main/ERROR] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category helmetRequired: 4; Provided: 2
-[12Apr2025 16:08:10.271] [main/ERROR] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category bootsRequired: 4; Provided: 2
-[12Apr2025 16:08:10.283] [main/INFO] [Apotheosis : Adventure/]: Registered 19 gems.
-[12Apr2025 16:08:10.293] [main/INFO] [Apotheosis : Adventure/]: Registered 67 affix_loot_entries.
-[12Apr2025 16:08:10.301] [main/INFO] [Apotheosis : Adventure/]: Registered 17 bosses.
-[12Apr2025 16:08:10.307] [main/INFO] [Apotheosis : Adventure/]: Registered 8 rogue_spawners.
-[12Apr2025 16:08:10.309] [main/INFO] [Apotheosis : Adventure/]: Registered 5 minibosses.
-[12Apr2025 16:08:10.315] [main/INFO] [Apotheosis : Village/]: Registered 28 wanderer_trades.
-[12Apr2025 16:08:10.324] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
-[12Apr2025 16:08:11.201] [main/INFO] [majruszlibrary/]: [majruszsdifficulty.json] Reloading configuration file took 9 milliseconds
-[12Apr2025 16:08:11.202] [main/INFO] [majruszlibrary/]: [majruszlibrary.json] Reloading configuration file took 0 milliseconds
-[12Apr2025 16:08:11.203] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[12Apr2025 16:08:11.203] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[12Apr2025 16:08:11.204] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[12Apr2025 16:08:11.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[12Apr2025 16:08:11.294] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[12Apr2025 16:08:11.353] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[12Apr2025 16:08:11.395] [e4mc_minecraft-init/INFO] [e4mc_minecraft/]: req: https://broker.e4mc.link/getBestRelay GET
-[12Apr2025 16:08:11.401] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[12Apr2025 16:08:11.409] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12Apr2025 16:08:11.409] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[12Apr2025 16:08:11.409] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12Apr2025 16:08:11.409] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[12Apr2025 16:08:11.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:         __    
-[12Apr2025 16:08:11.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:   |    |__)   LuckPerms v5.4.102
-[12Apr2025 16:08:11.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:   |___ |      Running on Forge - Forge
-[12Apr2025 16:08:11.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
-[12Apr2025 16:08:11.667] [Server thread/INFO] [luckperms/]: Loading configuration...
-[12Apr2025 16:08:11.830] [Server thread/INFO] [luckperms/]: Loading storage provider... [H2]
-[12Apr2025 16:08:11.972] [e4mc_minecraft-init/INFO] [e4mc_minecraft/]: resp: (GET https://broker.e4mc.link/getBestRelay) 200
-[12Apr2025 16:08:11.977] [e4mc_minecraft-init/INFO] [e4mc_minecraft/]: using relay na
-[12Apr2025 16:08:12.153] [Server thread/INFO] [luckperms/]: Loading internal permission managers...
-[12Apr2025 16:08:12.187] [Server thread/INFO] [luckperms/]: Performing initial data load...
-[12Apr2025 16:08:12.245] [Server thread/INFO] [luckperms/]: Successfully enabled. (took 11493ms)
-[12Apr2025 16:08:12.248] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Initializing Open Parties and Claims for the server...
-[12Apr2025 16:08:12.274] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading server info!
-[12Apr2025 16:08:12.453] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading player configs...
-[12Apr2025 16:08:12.605] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded player configs!
-[12Apr2025 16:08:12.608] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading parties...
-[12Apr2025 16:08:12.612] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded parties!
-[12Apr2025 16:08:12.613] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Fixing party inconsistencies...
-[12Apr2025 16:08:12.791] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Registered party system for OPAC: default
-[12Apr2025 16:08:12.796] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Registered permission system for OPAC: luck_perms
-[12Apr2025 16:08:12.797] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Registered permission system for OPAC: permission_api
-[12Apr2025 16:08:12.825] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
-[12Apr2025 16:08:12.825] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isTreasureOnly() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
-[12Apr2025 16:08:12.831] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isTradeable() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
-[12Apr2025 16:08:12.852] [Server thread/INFO] [Framework/]: Loading server configs...
-[12Apr2025 16:08:12.856] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[12Apr2025 16:08:13.148] [nioEventLoopGroup-2-1/INFO] [e4mc_minecraft/]: control channel open: [id: 0x31298843, QuicStreamAddress{streamId=0}]
-[12Apr2025 16:08:13.153] [nioEventLoopGroup-2-1/INFO] [e4mc_minecraft/]: control channel write complete
-[12Apr2025 16:08:13.185] [nioEventLoopGroup-2-1/WARN] [e4mc_minecraft/]: e4mc running on Dedicated Server; This works, but isn't recommended as e4mc is designed for short-lived LAN servers
-[12Apr2025 16:08:13.185] [nioEventLoopGroup-2-1/INFO] [e4mc_minecraft/]: Domain assigned: blur-focus.na.e4mc.link
-[12Apr2025 16:08:16.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[12Apr2025 16:08:21.381] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Apr2025 16:08:21.383] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Apr2025 16:08:21.383] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Apr2025 16:08:21.385] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Apr2025 16:08:21.385] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Apr2025 16:08:21.387] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Apr2025 16:08:21.388] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Apr2025 16:08:21.389] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Apr2025 16:08:21.390] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Apr2025 16:08:21.391] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Apr2025 16:08:21.825] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[12Apr2025 16:08:22.327] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
-[12Apr2025 16:08:22.422] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5597 ms
-[12Apr2025 16:08:22.422] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (11.001s)! For help, type "help"
-[12Apr2025 16:08:22.483] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler luckperms:permission_handler
-[12Apr2025 16:08:22.483] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading claims...
-[12Apr2025 16:08:22.485] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded claims in 2ms
-[12Apr2025 16:08:22.486] [Server thread/WARN] [xaero.pac.OpenPartiesAndClaims/]: The configured permission system "prometheus" isn't registered!
-[12Apr2025 16:08:22.486] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Configured OPAC to use the following permission system: luck_perms
-[12Apr2025 16:08:22.486] [Server thread/WARN] [xaero.pac.OpenPartiesAndClaims/]: The configured primary party system "argonauts_guilds" isn't registered!
-[12Apr2025 16:08:22.486] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Configured OPAC to use the following party system as primary: default
-[12Apr2025 16:08:22.514] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser finished, item count: 14
-[12Apr2025 16:08:22.514] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser finished, item count: 17
-[12Apr2025 16:08:22.514] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser finished, item count: 16
-[12Apr2025 16:08:22.515] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: InfernalMobsCore commonSetup completed! Modifiers ready: 27
-[12Apr2025 16:08:22.515] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: InfernalMobsCore commonSetup completed! config file at: /workspaces/turbo-palm-tree/servidor_minecraft/./config/infernalmobs.cfg
-[12Apr2025 16:08:22.521] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[12Apr2025 16:08:22.530] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
-[12Apr2025 16:08:22.532] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
-[12Apr2025 16:08:38.343] [Netty Epoll Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 0
-[12Apr2025 16:08:38.423] [Netty Epoll Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 1
-[12Apr2025 16:08:38.438] [Netty Epoll Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 2
-[12Apr2025 16:08:38.438] [Netty Epoll Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 3
-[12Apr2025 16:08:38.439] [Netty Epoll Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 4
-[12Apr2025 16:08:38.478] [Netty Epoll Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 5
-[12Apr2025 16:08:38.478] [Netty Epoll Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 6
-[12Apr2025 16:08:38.479] [Netty Epoll Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 7
-[12Apr2025 16:08:38.479] [Netty Epoll Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 8
-[12Apr2025 16:08:38.479] [Netty Epoll Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 9
-[12Apr2025 16:08:38.480] [Netty Epoll Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 10
-[12Apr2025 16:08:38.480] [Netty Epoll Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 11
-[12Apr2025 16:08:38.695] [Netty Epoll Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 12
-[12Apr2025 16:08:38.735] [Netty Epoll Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 13
-[12Apr2025 16:08:38.735] [Netty Epoll Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 14
-[12Apr2025 16:08:38.736] [Netty Epoll Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 15
-[12Apr2025 16:08:47.080] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ZzBaal_[/127.29.101.194:33019] logged in with entity id 113 at (-1467.4534777684823, 68.0, 7030.318410781917)
-[12Apr2025 16:08:47.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZzBaal_ joined the game
-[12Apr2025 16:08:47.277] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for 8ac19fef-2e6a-373a-8fe4-ac9a866616d0
-[12Apr2025 16:08:47.316] [Server thread/INFO] [Jade/]: Syncing config to ZzBaal_ (8ac19fef-2e6a-373a-8fe4-ac9a866616d0)
-[12Apr2025 16:08:49.745] [Server thread/WARN] [ImprovableSkills/]: Skill tick took too long! (2234 ms, expected <50 ms!). Time map: [improvableskills:accelerated_furnace=2232, improvableskills:alchemist=2, improvableskills:luck_of_the_sea=0, improvableskills:silent_foot=0, improvableskills:obsidian_skin=0, improvableskills:attack_speed=0, improvableskills:dexterous_arms=0, improvableskills:huckster=0, improvableskills:fast_swimmer=0, improvableskills:growth=0, improvableskills:pvp=0, improvableskills:xp_plus=0, improvableskills:soft_landing=0, improvableskills:cutting=0, improvableskills:treasure_sands=0, improvableskills:mob_repellent=0, improvableskills:mining=0, improvableskills:atkdmg_ranged=0, improvableskills:leaper=0, improvableskills:atkdmg_melee=0, improvableskills:ladder_king=0, improvableskills:ender_manipulator=0, improvableskills:generic_protection=0, improvableskills:health=0, improvableskills:enchanter=0, improvableskills:anvil=0, improvableskills:digging=0, improvableskills:soul_speed=0]
-[12Apr2025 16:08:49.844] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of ZzBaal_ (18)
-[12Apr2025 16:08:49.846] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to ZzBaal_
-[12Apr2025 16:08:49.848] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2861ms or 57 ticks behind
-[12Apr2025 16:09:03.438] [Server thread/INFO] [ImprovableSkills/]: Sending skill data to ZzBaal_ (8ac19fef-2e6a-373a-8fe4-ac9a866616d0)
-[12Apr2025 16:43:14.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZzBaal_ has made the advancement [The way of Air]
-[12Apr2025 16:45:09.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZzBaal_ has completed the challenge [Master of Air]
-[12Apr2025 17:07:21.173] [Worker-Main-75/WARN] [net.minecraft.world.level.levelgen.heightproviders.UniformHeight/]: Empty height range: [6 above bottom--1 absolute]
-[12Apr2025 17:07:21.174] [Worker-Main-75/WARN] [net.minecraft.world.level.levelgen.heightproviders.UniformHeight/]: Empty height range: [6 above bottom--1 absolute]
-[12Apr2025 17:07:21.174] [Worker-Main-75/WARN] [net.minecraft.world.level.levelgen.heightproviders.UniformHeight/]: Empty height range: [6 above bottom--1 absolute]
-[12Apr2025 17:07:45.821] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ZzBaal_ moved too quickly! -2.5238530463500695,0.2046003784434518,-9.808886035710088
-[12Apr2025 17:08:26.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZzBaal_ has made the advancement [Those Were the Days]
-[12Apr2025 17:08:34.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZzBaal_ has made the advancement [War Pigs]
-[12Apr2025 17:10:57.836] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ZzBaal_ moved wrongly!
-[12Apr2025 17:10:58.500] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ZzBaal_ moved wrongly!
-[12Apr2025 17:11:56.753] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Withering Archer'/11887, l='ServerLevel[world]', x=-290.37, y=50.88, z=-775.92] died: Withering Archer was slain by ZzBaal_
-[12Apr2025 17:12:32.279] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Withering Archer'/12229, l='ServerLevel[world]', x=-162.35, y=49.88, z=-791.31] died: Withering Archer was slain by ZzBaal_
-[12Apr2025 17:39:54.556] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.TamableAnimal from interface com.hollingsworth.arsnouveau.common.entity.IFollowingSummon
-[12Apr2025 18:02:15.576] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ZzBaal_ moved wrongly!
-[12Apr2025 18:03:29.816] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ZzBaal_ moved wrongly!
-[12Apr2025 18:03:55.210] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Honeyed Archer'/23969, l='ServerLevel[world]', x=-1512.06, y=68.00, z=6996.53] died: Honeyed Archer was shattered by ZzBaal_
-[12Apr2025 18:05:46.389] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
-[12Apr2025 18:05:46.389] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
-[12Apr2025 18:05:48.688] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
-[12Apr2025 18:05:48.688] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
-[12Apr2025 18:11:24.806] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ZzBaal_ lost connection: Disconnected
-[12Apr2025 18:11:24.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZzBaal_ left the game
-[12Apr2025 18:11:24.808] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for 8ac19fef-2e6a-373a-8fe4-ac9a866616d0
-[12Apr2025 18:11:24.813] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client ZzBaal_
-[12Apr2025 18:21:33.274] [Netty Epoll Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 0
-[12Apr2025 18:21:33.381] [Netty Epoll Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 1
-[12Apr2025 18:21:33.389] [Netty Epoll Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 2
-[12Apr2025 18:21:33.429] [Netty Epoll Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 3
-[12Apr2025 18:21:33.529] [Netty Epoll Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 4
-[12Apr2025 18:21:33.537] [Netty Epoll Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 5
-[12Apr2025 18:21:33.538] [Netty Epoll Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 6
-[12Apr2025 18:21:33.672] [Netty Epoll Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 7
-[12Apr2025 18:21:33.675] [Netty Epoll Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 8
-[12Apr2025 18:21:33.685] [Netty Epoll Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 9
-[12Apr2025 18:21:33.781] [Netty Epoll Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 10
-[12Apr2025 18:21:33.805] [Netty Epoll Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 11
-[12Apr2025 18:21:34.402] [Netty Epoll Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 12
-[12Apr2025 18:21:34.402] [Netty Epoll Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 13
-[12Apr2025 18:21:34.437] [Netty Epoll Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 14
-[12Apr2025 18:21:34.438] [Netty Epoll Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 15
-[12Apr2025 18:21:42.563] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ZzBaal_[/127.29.101.194:42311] logged in with entity id 27031 at (-1466.9772444850462, 68.0, 7029.767346020687)
-[12Apr2025 18:21:42.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZzBaal_ joined the game
-[12Apr2025 18:21:42.601] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for 8ac19fef-2e6a-373a-8fe4-ac9a866616d0
-[12Apr2025 18:21:42.603] [Server thread/INFO] [Jade/]: Syncing config to ZzBaal_ (8ac19fef-2e6a-373a-8fe4-ac9a866616d0)
-[12Apr2025 18:21:43.284] [Server thread/WARN] [ImprovableSkills/]: Skill tick took too long! (655 ms, expected <50 ms!). Time map: [improvableskills:accelerated_furnace=655, improvableskills:luck_of_the_sea=0, improvableskills:silent_foot=0, improvableskills:obsidian_skin=0, improvableskills:attack_speed=0, improvableskills:dexterous_arms=0, improvableskills:huckster=0, improvableskills:fast_swimmer=0, improvableskills:growth=0, improvableskills:pvp=0, improvableskills:xp_plus=0, improvableskills:soft_landing=0, improvableskills:cutting=0, improvableskills:treasure_sands=0, improvableskills:mob_repellent=0, improvableskills:mining=0, improvableskills:atkdmg_ranged=0, improvableskills:alchemist=0, improvableskills:leaper=0, improvableskills:atkdmg_melee=0, improvableskills:ladder_king=0, improvableskills:ender_manipulator=0, improvableskills:generic_protection=0, improvableskills:health=0, improvableskills:enchanter=0, improvableskills:anvil=0, improvableskills:digging=0, improvableskills:soul_speed=0]
-[12Apr2025 18:21:43.674] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of ZzBaal_ (18)
-[12Apr2025 18:21:43.674] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to ZzBaal_
-[12Apr2025 18:21:57.885] [Server thread/INFO] [ImprovableSkills/]: Sending skill data to ZzBaal_ (8ac19fef-2e6a-373a-8fe4-ac9a866616d0)
-[12Apr2025 18:26:10.018] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ZzBaal_ moved too quickly! 3.741406301729512,-1.0784000015258783,9.445116805053658
-[12Apr2025 18:36:52.288] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
-[12Apr2025 19:17:15.120] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ZzBaal_ moved too quickly! 8.609817902656232,-4.301913481273957,-4.129481503812599
-[12Apr2025 19:22:29.458] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ZzBaal_ moved too quickly! 8.575509935448736,3.218882038142212,5.290060095285149
-[12Apr2025 19:32:44.765] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ZzBaal_ moved too quickly! 7.442011225132092,4.716657115960004,-5.612546101112457
-[12Apr2025 19:47:02.565] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ZzBaal_ moved too quickly! -1.0101534519044435,2.638314586131827,-10.195568211827776
-[12Apr2025 20:01:21.767] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2430ms or 48 ticks behind
-[12Apr2025 20:01:58.452] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5615ms or 112 ticks behind
-[12Apr2025 20:02:28.752] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 15315ms or 306 ticks behind
-[12Apr2025 20:03:04.833] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2146ms or 42 ticks behind
-[12Apr2025 20:04:43.853] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ZzBaal_ moved wrongly!
-[12Apr2025 20:11:43.356] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ZzBaal_ lost connection: Disconnected
-[12Apr2025 20:11:43.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZzBaal_ left the game
-[12Apr2025 20:11:43.357] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for 8ac19fef-2e6a-373a-8fe4-ac9a866616d0
-[12Apr2025 20:11:43.357] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client ZzBaal_
+[14Apr2025 17:23:23.661] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszlibrary] Starting version check at https://raw.githubusercontent.com/Majrusz/MinecraftCommon/main/Library/update.json
+[14Apr2025 17:23:23.671] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszlibrary] Found status: AHEAD Current: 7.0.8 Target: null
+[14Apr2025 17:23:25.226] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14Apr2025 17:23:27.139] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/turbo-palm-tree/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23263!/assets/.mcassetsroot' uses unexpected schema
+[14Apr2025 17:23:27.139] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/turbo-palm-tree/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23263!/data/.mcassetsroot' uses unexpected schema
+[14Apr2025 17:23:28.446] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/server/commands/EnchantCommand
+[14Apr2025 17:23:28.881] [main/INFO] [Calio/]: CDRM Initialized with 16 registries
+[14Apr2025 17:23:28.918] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/biome_source
+[14Apr2025 17:23:28.920] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/frog_variant
+[14Apr2025 17:23:28.931] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/processor_list
+[14Apr2025 17:23:28.933] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry apoli:fluid_condition
+[14Apr2025 17:23:28.937] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry forge:entity_data_serializers
+[14Apr2025 17:23:28.938] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry apoli:configured_block_condition
+[14Apr2025 17:23:28.940] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/trim_material
+[14Apr2025 17:23:28.943] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/loot_function_type
+[14Apr2025 17:23:28.946] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/material_condition
+[14Apr2025 17:23:28.947] [Worker-Main-2/WARN] [HammerLib/]: Unable to find registry for tag directory tags/damage_type
+[14Apr2025 17:23:28.948] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/loot_score_provider_type
+[14Apr2025 17:23:28.949] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/forge/structure_modifier
+[14Apr2025 17:23:28.951] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry minecraft:menu
+[14Apr2025 17:23:28.955] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/float_provider_type
+[14Apr2025 17:23:28.952] [Worker-Main-2/WARN] [HammerLib/]: Unable to find registry for tag directory tags/trim_pattern
+[14Apr2025 17:23:28.952] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/trunk_placer_type
+[14Apr2025 17:23:28.956] [Worker-Main-2/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/structure_pool_element
+[14Apr2025 17:23:28.959] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry apoli:configured_modifier
+[14Apr2025 17:23:28.957] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry apoli:item_condition
+[14Apr2025 17:23:28.962] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry apoli:damage_condition
+[14Apr2025 17:23:28.963] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/root_placer_type
+[14Apr2025 17:23:28.963] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry minecraft:worldgen/block_state_provider_type
+[14Apr2025 17:23:28.964] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/rule_block_entity_modifier
+[14Apr2025 17:23:28.965] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry minecraft:activity
+[14Apr2025 17:23:28.965] [Worker-Main-2/WARN] [HammerLib/]: Unable to find registry for tag directory tags/dimension_type
+[14Apr2025 17:23:28.966] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/int_provider_type
+[14Apr2025 17:23:28.966] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry minecraft:worldgen/carver
+[14Apr2025 17:23:28.967] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry minecraft:schedule
+[14Apr2025 17:23:28.968] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry apoli:entity_condition
+[14Apr2025 17:23:28.969] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/multi_noise_biome_source_parameter_list
+[14Apr2025 17:23:28.969] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry minecraft:enchantment
+[14Apr2025 17:23:28.970] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/loot_number_provider_type
+[14Apr2025 17:23:28.972] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/template_pool
+[14Apr2025 17:23:28.975] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry minecraft:attribute
+[14Apr2025 17:23:28.973] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry minecraft:worldgen/feature
+[14Apr2025 17:23:28.983] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry minecraft:villager_profession
+[14Apr2025 17:23:28.983] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry minecraft:worldgen/foliage_placer_type
+[14Apr2025 17:23:28.987] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry apoli:configured_power
+[14Apr2025 17:23:28.989] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/villager_type
+[14Apr2025 17:23:28.989] [Worker-Main-2/WARN] [HammerLib/]: Unable to find registry for tag directory tags/game_events
+[14Apr2025 17:23:28.989] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/decorated_pot_patterns
+[14Apr2025 17:23:28.991] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/structure_placement
+[14Apr2025 17:23:28.992] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry apoli:block_action
+[14Apr2025 17:23:28.996] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry apoli:biome_condition
+[14Apr2025 17:23:28.996] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/rule_test
+[14Apr2025 17:23:28.998] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/lionfishapi/modded_biome_slices
+[14Apr2025 17:23:28.999] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/structure_piece
+[14Apr2025 17:23:29.000] [Worker-Main-2/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/world_preset
+[14Apr2025 17:23:29.002] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/height_provider_type
+[14Apr2025 17:23:29.000] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry minecraft:block_entity_type
+[14Apr2025 17:23:29.006] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry forge:global_loot_modifier_serializers
+[14Apr2025 17:23:29.008] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry apoli:configured_biome_condition
+[14Apr2025 17:23:29.011] [Worker-Main-2/WARN] [HammerLib/]: Unable to find registry for tag directory tags/cat_variant
+[14Apr2025 17:23:29.014] [Worker-Main-2/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/noise
+[14Apr2025 17:23:29.011] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/loot_pool_entry_type
+[14Apr2025 17:23:29.016] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/creative_mode_tab
+[14Apr2025 17:23:29.020] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry minecraft:stat_type
+[14Apr2025 17:23:29.023] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/material_rule
+[14Apr2025 17:23:29.024] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry minecraft:sensor_type
+[14Apr2025 17:23:29.026] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/structure_type
+[14Apr2025 17:23:29.029] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry botania:brews
+[14Apr2025 17:23:29.030] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/forge/biome_modifier
+[14Apr2025 17:23:29.033] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry apoli:bientity_condition
+[14Apr2025 17:23:29.035] [Worker-Main-2/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/noise_settings
+[14Apr2025 17:23:29.037] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/block_predicate_type
+[14Apr2025 17:23:29.039] [Worker-Main-2/WARN] [HammerLib/]: Unable to find registry for tag directory tags/loot_nbt_provider_type
+[14Apr2025 17:23:29.041] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry apoli:configured_block_action
+[14Apr2025 17:23:29.042] [Worker-Main-2/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/placement_modifier_type
+[14Apr2025 17:23:29.044] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry minecraft:painting_variant
+[14Apr2025 17:23:29.045] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry minecraft:recipe_type
+[14Apr2025 17:23:29.049] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry apoli:configured_damage_condition
+[14Apr2025 17:23:29.052] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry minecraft:worldgen/tree_decorator_type
+[14Apr2025 17:23:29.056] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry apoli:block_condition
+[14Apr2025 17:23:29.059] [Worker-Main-1/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/configured_carver
+[14Apr2025 17:23:29.061] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry minecraft:worldgen/biome
+[14Apr2025 17:23:29.067] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry minecraft:entity_type
+[14Apr2025 17:23:29.070] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry apoli:entity_action
+[14Apr2025 17:23:29.071] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry minecraft:mob_effect
+[14Apr2025 17:23:29.072] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry minecraft:point_of_interest_type
+[14Apr2025 17:23:29.073] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/pos_rule_test
+[14Apr2025 17:23:29.075] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry forge:fluid_type
+[14Apr2025 17:23:29.075] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry minecraft:recipe_serializer
+[14Apr2025 17:23:29.077] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/flat_level_generator_preset
+[14Apr2025 17:23:29.078] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry apoli:configured_bientity_condition
+[14Apr2025 17:23:29.079] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry apoli:configured_entity_action
+[14Apr2025 17:23:29.081] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/custom_stat
+[14Apr2025 17:23:29.082] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry apoli:configured_item_action
+[14Apr2025 17:23:29.083] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry apoli:configured_bientity_action
+[14Apr2025 17:23:29.085] [Worker-Main-2/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/structure_set
+[14Apr2025 17:23:29.087] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry minecraft:sound_event
+[14Apr2025 17:23:29.088] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/placed_feature
+[14Apr2025 17:23:29.090] [Worker-Main-2/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/density_function_type
+[14Apr2025 17:23:29.091] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry minecraft:potion
+[14Apr2025 17:23:29.093] [Worker-Main-2/WARN] [HammerLib/]: Unable to find registry for tag directory tags/dimension
+[14Apr2025 17:23:29.096] [Worker-Main-2/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/chunk_generator
+[14Apr2025 17:23:29.099] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry apoli:bientity_action
+[14Apr2025 17:23:29.100] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/banner_pattern
+[14Apr2025 17:23:29.103] [Worker-Main-2/WARN] [HammerLib/]: Unable to find registry for tag directory tags/position_source_type
+[14Apr2025 17:23:29.103] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/loot_condition_type
+[14Apr2025 17:23:29.107] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry minecraft:fluid
+[14Apr2025 17:23:29.109] [Worker-Main-3/WARN] [HammerLib/]: Unable to find registry for tag directory tags/instrument
+[14Apr2025 17:23:29.111] [Worker-Main-2/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/structure
+[14Apr2025 17:23:29.113] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry apoli:power_factory
+[14Apr2025 17:23:29.113] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry apoli:global_power_set
+[14Apr2025 17:23:29.117] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry minecraft:memory_module_type
+[14Apr2025 17:23:29.120] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry apoli:item_action
+[14Apr2025 17:23:29.124] [Worker-Main-2/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/structure_processor
+[14Apr2025 17:23:29.130] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry minecraft:command_argument_type
+[14Apr2025 17:23:29.131] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry apoli:configured_fluid_condition
+[14Apr2025 17:23:29.132] [Worker-Main-2/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/density_function
+[14Apr2025 17:23:29.133] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry apoli:modifier
+[14Apr2025 17:23:29.134] [Worker-Main-2/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/feature_size_type
+[14Apr2025 17:23:29.138] [Worker-Main-2/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/configured_feature
+[14Apr2025 17:23:29.139] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry apoli:configured_entity_condition
+[14Apr2025 17:23:29.140] [Worker-Main-2/WARN] [HammerLib/]: Unable to find registry for tag directory tags/chat_type
+[14Apr2025 17:23:29.143] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry apoli:configured_item_condition
+[14Apr2025 17:23:29.147] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry minecraft:particle_type
+[14Apr2025 17:23:29.148] [Worker-Main-2/INFO] [HammerLib/]: Built tags for registry minecraft:chunk_status
+[14Apr2025 17:23:29.196] [Worker-Main-1/INFO] [HammerLib/]: Built tags for registry minecraft:item
+[14Apr2025 17:23:29.216] [Worker-Main-3/INFO] [HammerLib/]: Built tags for registry minecraft:block
+[14Apr2025 17:23:29.702] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:silent_foot' into LootTable 'minecraft:entities/warden'!
+[14Apr2025 17:23:29.741] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/ancient_city_ice_box'!
+[14Apr2025 17:23:30.017] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/bastion_treasure'!
+[14Apr2025 17:23:30.025] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:chests/campsite_barrel/cobwebs'!
+[14Apr2025 17:23:30.046] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/underwater_ruin_big'!
+[14Apr2025 17:23:30.054] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'apotheosis:chests/spawner_brutal_rotate'!
+[14Apr2025 17:23:30.099] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/shipwreck_map'!
+[14Apr2025 17:23:30.114] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'sophisticatedbackpacks:inject/chests/abandoned_mineshaft'!
+[14Apr2025 17:23:30.133] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'apotheosis:chests/chest_valuable'!
+[14Apr2025 17:23:30.146] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterfortresses:chests/puzzle'!
+[14Apr2025 17:23:30.235] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/abandoned_mineshaft'!
+[14Apr2025 17:23:30.253] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:atkdmg_ranged' into LootTable 'minecraft:entities/skeleton'!
+[14Apr2025 17:23:30.257] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:ender_manipulator' into LootTable 'minecraft:entities/enderman'!
+[14Apr2025 17:23:30.275] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/ancient_city'!
+[14Apr2025 17:23:30.332] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'cataclysm:chests/frosted_prison_treasure'!
+[14Apr2025 17:23:30.358] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:obsidian_skin' into LootTable 'minecraft:chests/nether_bridge'!
+[14Apr2025 17:23:30.358] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/nether_bridge'!
+[14Apr2025 17:23:30.425] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'apotheosis:chests/spawner_brutal'!
+[14Apr2025 17:23:30.442] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'apotheosis:chests/spawner_swarm'!
+[14Apr2025 17:23:30.463] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterfortresses:chests/keep'!
+[14Apr2025 17:23:30.537] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/village/village_desert_house'!
+[14Apr2025 17:23:30.558] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterfortresses:chests/storage'!
+[14Apr2025 17:23:30.586] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/stronghold_corridor'!
+[14Apr2025 17:23:30.610] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterdungeons:skeleton_dungeon/chests/middle'!
+[14Apr2025 17:23:30.633] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/firewell_d'!
+[14Apr2025 17:23:30.640] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterstrongholds:chests/prison_lg'!
+[14Apr2025 17:23:30.647] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/underwater_ruin_small'!
+[14Apr2025 17:23:30.686] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterdungeons:skeleton_dungeon/chests/common'!
+[14Apr2025 17:23:30.724] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:xp_plus' into LootTable 'minecraft:entities/elder_guardian'!
+[14Apr2025 17:23:30.743] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:chests/campsite_barrel/ores'!
+[14Apr2025 17:23:30.750] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/village/village_weaponsmith'!
+[14Apr2025 17:23:30.758] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:mob_repellent' into LootTable 'minecraft:chests/village/village_armorer'!
+[14Apr2025 17:23:30.768] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/bastion_hoglin_stable'!
+[14Apr2025 17:23:30.807] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'sophisticatedbackpacks:inject/chests/woodland_mansion'!
+[14Apr2025 17:23:30.867] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/village/village_toolsmith'!
+[14Apr2025 17:23:30.899] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/igloo_chest'!
+[14Apr2025 17:23:30.906] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:silent_foot' into LootTable 'minecraft:chests/ancient_city'!
+[14Apr2025 17:23:30.907] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/ancient_city'!
+[14Apr2025 17:23:30.951] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/village/village_snowy_house'!
+[14Apr2025 17:23:30.984] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'cisco_mod:chests/tower_loot'!
+[14Apr2025 17:23:31.014] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/farm_drop'!
+[14Apr2025 17:23:31.055] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/jungle_temple'!
+[14Apr2025 17:23:31.058] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:chests/campsite_barrel/food'!
+[14Apr2025 17:23:31.062] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'lootr:chests/elytra'!
+[14Apr2025 17:23:31.067] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/village/village_butcher'!
+[14Apr2025 17:23:31.085] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterstrongholds:chests/library_md'!
+[14Apr2025 17:23:31.093] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterfortresses:chests/hall'!
+[14Apr2025 17:23:31.101] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterstrongholds:chests/crypt'!
+[14Apr2025 17:23:31.104] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:growth' into LootTable 'minecraft:chests/jungle_temple'!
+[14Apr2025 17:23:31.104] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/jungle_temple'!
+[14Apr2025 17:23:31.115] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterfortresses:chests/extra'!
+[14Apr2025 17:23:31.125] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterstrongholds:chests/grand_library'!
+[14Apr2025 17:23:31.167] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:health' into LootTable 'minecraft:chests/end_city_treasure'!
+[14Apr2025 17:23:31.168] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/end_city_treasure'!
+[14Apr2025 17:23:31.183] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/chest_level_1'!
+[14Apr2025 17:23:31.189] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/chest_level_2'!
+[14Apr2025 17:23:31.202] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/chest_level_3'!
+[14Apr2025 17:23:31.210] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:chests/campsite_barrel/crops'!
+[14Apr2025 17:23:31.247] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:enchanter' into LootTable 'minecraft:chests/stronghold_library'!
+[14Apr2025 17:23:31.247] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/stronghold_library'!
+[14Apr2025 17:23:31.257] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/village/village_savanna_house'!
+[14Apr2025 17:23:31.280] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:chests/campsite_barrel/rails'!
+[14Apr2025 17:23:31.299] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/ruined_portal'!
+[14Apr2025 17:23:31.309] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/igloo_chest'!
+[14Apr2025 17:23:31.328] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/buried_treasure'!
+[14Apr2025 17:23:31.357] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:silent_foot' into LootTable 'minecraft:chests/ancient_city_ice_box'!
+[14Apr2025 17:23:31.358] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/ancient_city_ice_box'!
+[14Apr2025 17:23:31.364] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:generic_protection' into LootTable 'minecraft:chests/simple_dungeon'!
+[14Apr2025 17:23:31.364] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/simple_dungeon'!
+[14Apr2025 17:23:31.406] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/shipwreck_treasure'!
+[14Apr2025 17:23:31.434] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'sophisticatedbackpacks:inject/chests/desert_pyramid'!
+[14Apr2025 17:23:31.458] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/ruined_portal'!
+[14Apr2025 17:23:31.472] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/village/village_tannery'!
+[14Apr2025 17:23:31.502] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/desert_pyramid'!
+[14Apr2025 17:23:31.525] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'apotheosis:chests/tome_tower'!
+[14Apr2025 17:23:31.533] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterstrongholds:chests/armoury'!
+[14Apr2025 17:23:31.566] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/shipwreck_supply'!
+[14Apr2025 17:23:31.582] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:alchemist' into LootTable 'minecraft:entities/witch'!
+[14Apr2025 17:23:31.598] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:chests/campsite_barrel/minecarts'!
+[14Apr2025 17:23:31.619] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/village/village_temple'!
+[14Apr2025 17:23:31.639] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'mowziesmobs:chests/umvuthana_grove_chest'!
+[14Apr2025 17:23:31.668] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterstrongholds:chests/mess'!
+[14Apr2025 17:23:31.691] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/basic_chest'!
+[14Apr2025 17:23:31.699] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/stronghold_crossing'!
+[14Apr2025 17:23:31.721] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterfortresses:chests/worship'!
+[14Apr2025 17:23:31.734] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'sophisticatedbackpacks:inject/chests/shipwreck_treasure'!
+[14Apr2025 17:23:31.747] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterstrongholds:chests/treasure'!
+[14Apr2025 17:23:31.778] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterdungeons:zombie_dungeon/chests/special'!
+[14Apr2025 17:23:31.783] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:dexterous_arms' into LootTable 'minecraft:chests/abandoned_mineshaft'!
+[14Apr2025 17:23:31.783] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/abandoned_mineshaft'!
+[14Apr2025 17:23:31.793] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/shipwreck_treasure'!
+[14Apr2025 17:23:31.841] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/stronghold_corridor'!
+[14Apr2025 17:23:31.854] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/pillager_outpost'!
+[14Apr2025 17:23:31.873] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterfortresses:chests/obsidian'!
+[14Apr2025 17:23:31.881] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:chests/campsite_barrel/cobblestone'!
+[14Apr2025 17:23:31.903] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/shater'!
+[14Apr2025 17:23:31.908] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:luck_of_the_sea' into LootTable 'minecraft:gameplay/fishing'!
+[14Apr2025 17:23:31.911] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterfortresses:chests/beacon'!
+[14Apr2025 17:23:31.918] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'sophisticatedbackpacks:inject/chests/bastion_treasure'!
+[14Apr2025 17:23:31.948] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterdungeons:spider_dungeon/chests/egg_room'!
+[14Apr2025 17:23:31.966] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/nether_bridge'!
+[14Apr2025 17:23:31.974] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:chests/campsite_barrel/gems'!
+[14Apr2025 17:23:31.985] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/spawn_bonus_chest'!
+[14Apr2025 17:23:32.009] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/buried_treasure'!
+[14Apr2025 17:23:32.027] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/village/village_taiga_house'!
+[14Apr2025 17:23:32.034] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterdungeons:small_dungeon/chests/loot_piles'!
+[14Apr2025 17:23:32.058] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterdungeons:zombie_dungeon/chests/common'!
+[14Apr2025 17:23:32.084] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterfortresses:chests/quarters'!
+[14Apr2025 17:23:32.098] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:chests/campsite_barrel'!
+[14Apr2025 17:23:32.100] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:soul_speed' into LootTable 'minecraft:gameplay/piglin_bartering'!
+[14Apr2025 17:23:32.108] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:chests/campsite_chest'!
+[14Apr2025 17:23:32.117] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:treasure_sands' into LootTable 'minecraft:chests/desert_pyramid'!
+[14Apr2025 17:23:32.118] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/desert_pyramid'!
+[14Apr2025 17:23:32.127] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterstrongholds:chests/trap'!
+[14Apr2025 17:23:32.132] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/spawn_bonus_chest'!
+[14Apr2025 17:23:32.146] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/underwater_ruin_big'!
+[14Apr2025 17:23:32.152] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'sophisticatedbackpacks:inject/chests/end_city_treasure'!
+[14Apr2025 17:23:32.159] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterdungeons:small_nether_dungeon/chests/common'!
+[14Apr2025 17:23:32.168] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'sophisticatedbackpacks:inject/chests/simple_dungeon'!
+[14Apr2025 17:23:32.190] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'sophisticatedbackpacks:inject/chests/nether_bridge'!
+[14Apr2025 17:23:32.213] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/woodland_mansion'!
+[14Apr2025 17:23:32.224] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterstrongholds:chests/common'!
+[14Apr2025 17:23:32.255] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/bastion_bridge'!
+[14Apr2025 17:23:32.299] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:chests/campsite_barrel/ingots'!
+[14Apr2025 17:23:32.307] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/pillager_outpost'!
+[14Apr2025 17:23:32.348] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterdungeons:zombie_dungeon/chests/tombstone'!
+[14Apr2025 17:23:32.369] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/end_city_treasure'!
+[14Apr2025 17:23:32.384] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/jungle_temple_dispenser'!
+[14Apr2025 17:23:32.412] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/bastion_hoglin_stable'!
+[14Apr2025 17:23:32.488] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'betterstrongholds:chests/cmd_yung'!
+[14Apr2025 17:23:32.584] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/bastion_other'!
+[14Apr2025 17:23:32.597] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/village/village_plains_house'!
+[14Apr2025 17:23:32.609] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/bastion_treasure'!
+[14Apr2025 17:23:32.631] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:chests/campsite_barrel/tnt'!
+[14Apr2025 17:23:32.651] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'minecraft:chests/woodland_mansion'!
+[14Apr2025 17:23:32.663] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting parchment into LootTable 'artifacts:inject/chests/village/village_armorer'!
+[14Apr2025 17:23:32.678] [Worker-Main-2/INFO] [ImprovableSkills/]: Injecting scroll for skill 'improvableskills:huckster' into LootTable 'minecraft:gameplay/hero_of_the_village/librarian_gift'!
+[14Apr2025 17:23:32.735] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:arphex:entities/long_legs}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[14Apr2025 17:23:32.736] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:arphex:entities/silverfish_spectre}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[14Apr2025 17:23:32.736] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:arphex:entities/millipede_marauder}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[14Apr2025 17:23:32.740] [main/INFO] [placebo/]: Registered 34 additional loot tables.
+[14Apr2025 17:23:32.822] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe ars_elemental:jeed/hellfire_burn as it's serializer returned null
+[14Apr2025 17:23:32.874] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe ars_elemental:jeed/watery_grave as it's serializer returned null
+[14Apr2025 17:23:32.888] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe botany_pots:ars_elemental/flashing_archwood as it's serializer returned null
+[14Apr2025 17:23:32.916] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe ars_elemental:jeed/life_link as it's serializer returned null
+[14Apr2025 17:23:32.926] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe ars_elemental:jeed/entrhalled as it's serializer returned null
+[14Apr2025 17:23:32.931] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe ars_elemental:jeed/mana_shield as it's serializer returned null
+[14Apr2025 17:23:32.978] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 41 recipes
+[14Apr2025 17:23:32.999] [main/ERROR] [HammerLib/]: Register attachment for RegisterRecipesEvent: org.zeith.hammerlib.core.test.HammerLibRecipeExtension.
+[14Apr2025 17:23:33.000] [main/ERROR] [HammerLib/]: Register attachment for RegisterRecipesEvent: org.zeith.improvableskills.api.recipe.Is3RecipeBuilderExtension.
+[14Apr2025 17:23:33.035] [main/INFO] [HammerLib/]: Reloading HammerLib recipes...
+[14Apr2025 17:23:33.038] [main/INFO] [HammerLib/]: HammerLib injected 16 recipes into recipe map. Removed 0 recipes from the game.
+[14Apr2025 17:23:33.043] [main/INFO] [HammerLib/]: Registered 16 additional recipes.
+[14Apr2025 17:23:33.044] [main/WARN] [HammerLib/]: Unable to find registry for tag directory tags/functions
+[14Apr2025 17:23:33.237] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2901 advancements
+[14Apr2025 17:23:33.251] [main/INFO] [placebo/]: Registered 26 additional recipes.
+[14Apr2025 17:23:33.273] [main/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 201/200 at level 20, making this level unobtainable.
+[14Apr2025 17:23:33.273] [main/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 211/200 at level 21, making this level unobtainable.
+[14Apr2025 17:23:33.273] [main/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 221/200 at level 22, making this level unobtainable.
+[14Apr2025 17:23:33.273] [main/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 231/200 at level 23, making this level unobtainable.
+[14Apr2025 17:23:33.273] [main/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 241/200 at level 24, making this level unobtainable.
+[14Apr2025 17:23:33.273] [main/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 251/200 at level 25, making this level unobtainable.
+[14Apr2025 17:23:33.273] [main/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 261/200 at level 26, making this level unobtainable.
+[14Apr2025 17:23:33.273] [main/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 271/200 at level 27, making this level unobtainable.
+[14Apr2025 17:23:33.273] [main/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 281/200 at level 28, making this level unobtainable.
+[14Apr2025 17:23:33.274] [main/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 291/200 at level 29, making this level unobtainable.
+[14Apr2025 17:23:33.274] [main/WARN] [Apotheosis : Enchantment/]: Enchantment arphex:wither_aura has min/max power 301/200 at level 30, making this level unobtainable.
+[14Apr2025 17:23:33.431] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
+[14Apr2025 17:23:33.440] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
+[14Apr2025 17:23:33.479] [main/INFO] [placebo/]: Registered 16 gear_sets.
+[14Apr2025 17:23:33.489] [main/INFO] [Apotheosis : Enchantment/]: Registered 29 enchanting_stats.
+[14Apr2025 17:23:33.492] [main/INFO] [Apotheosis : Adventure/]: Registered 6 rarities.
+[14Apr2025 17:23:33.517] [main/INFO] [Apotheosis : Adventure/]: Registered 81 affixes.
+[14Apr2025 17:23:33.525] [main/ERROR] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:mythic for category helmetRequired: 3; Provided: 2
+[14Apr2025 17:23:33.526] [main/ERROR] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:mythic for category bootsRequired: 3; Provided: 2
+[14Apr2025 17:23:33.526] [main/ERROR] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category bowRequired: 5; Provided: 4
+[14Apr2025 17:23:33.527] [main/ERROR] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category crossbowRequired: 5; Provided: 4
+[14Apr2025 17:23:33.527] [main/ERROR] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category pickaxeRequired: 5; Provided: 4
+[14Apr2025 17:23:33.527] [main/ERROR] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category shovelRequired: 5; Provided: 4
+[14Apr2025 17:23:33.528] [main/ERROR] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category shieldRequired: 5; Provided: 4
+[14Apr2025 17:23:33.529] [main/ERROR] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category helmetRequired: 4; Provided: 2
+[14Apr2025 17:23:33.529] [main/ERROR] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category bootsRequired: 4; Provided: 2
+[14Apr2025 17:23:33.546] [main/INFO] [Apotheosis : Adventure/]: Registered 19 gems.
+[14Apr2025 17:23:33.565] [main/INFO] [Apotheosis : Adventure/]: Registered 67 affix_loot_entries.
+[14Apr2025 17:23:33.576] [main/INFO] [Apotheosis : Adventure/]: Registered 17 bosses.
+[14Apr2025 17:23:33.588] [main/INFO] [Apotheosis : Adventure/]: Registered 8 rogue_spawners.
+[14Apr2025 17:23:33.595] [main/INFO] [Apotheosis : Adventure/]: Registered 5 minibosses.
+[14Apr2025 17:23:33.601] [main/INFO] [Apotheosis : Village/]: Registered 28 wanderer_trades.
+[14Apr2025 17:23:33.613] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
+[14Apr2025 17:23:34.943] [main/INFO] [majruszlibrary/]: [majruszsdifficulty.json] Reloading configuration file took 9 milliseconds
+[14Apr2025 17:23:34.945] [main/INFO] [majruszlibrary/]: [majruszlibrary.json] Reloading configuration file took 0 milliseconds
+[14Apr2025 17:23:34.947] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[14Apr2025 17:23:34.947] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[14Apr2025 17:23:34.947] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[14Apr2025 17:23:34.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[14Apr2025 17:23:35.021] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[14Apr2025 17:23:35.145] [e4mc_minecraft-init/INFO] [e4mc_minecraft/]: req: https://broker.e4mc.link/getBestRelay GET
+[14Apr2025 17:23:35.308] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[14Apr2025 17:23:35.371] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[14Apr2025 17:23:35.377] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14Apr2025 17:23:35.377] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[14Apr2025 17:23:35.377] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14Apr2025 17:23:35.378] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[14Apr2025 17:23:35.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:         __    
+[14Apr2025 17:23:35.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:   |    |__)   LuckPerms v5.4.102
+[14Apr2025 17:23:35.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:   |___ |      Running on Forge - Forge
+[14Apr2025 17:23:35.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[14Apr2025 17:23:35.726] [Server thread/INFO] [luckperms/]: Loading configuration...
+[14Apr2025 17:23:35.860] [e4mc_minecraft-init/INFO] [e4mc_minecraft/]: resp: (GET https://broker.e4mc.link/getBestRelay) 200
+[14Apr2025 17:23:35.861] [e4mc_minecraft-init/INFO] [e4mc_minecraft/]: using relay na
+[14Apr2025 17:23:36.437] [Server thread/INFO] [luckperms/]: Loading storage provider... [H2]
+[14Apr2025 17:23:37.172] [Server thread/INFO] [luckperms/]: Loading internal permission managers...
+[14Apr2025 17:23:37.249] [Server thread/INFO] [luckperms/]: Performing initial data load...
+[14Apr2025 17:23:37.323] [nioEventLoopGroup-2-1/INFO] [e4mc_minecraft/]: control channel open: [id: 0xec6c014b, QuicStreamAddress{streamId=0}]
+[14Apr2025 17:23:37.326] [nioEventLoopGroup-2-1/INFO] [e4mc_minecraft/]: control channel write complete
+[14Apr2025 17:23:37.347] [Server thread/INFO] [luckperms/]: Successfully enabled. (took 16772ms)
+[14Apr2025 17:23:37.348] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Initializing Open Parties and Claims for the server...
+[14Apr2025 17:23:37.423] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading server info!
+[14Apr2025 17:23:37.427] [nioEventLoopGroup-2-1/WARN] [e4mc_minecraft/]: e4mc running on Dedicated Server; This works, but isn't recommended as e4mc is designed for short-lived LAN servers
+[14Apr2025 17:23:37.429] [nioEventLoopGroup-2-1/INFO] [e4mc_minecraft/]: Domain assigned: position-van.na.e4mc.link
+[14Apr2025 17:23:37.562] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading player configs...
+[14Apr2025 17:23:37.650] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded player configs!
+[14Apr2025 17:23:37.651] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading parties...
+[14Apr2025 17:23:37.656] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded parties!
+[14Apr2025 17:23:37.658] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Fixing party inconsistencies...
+[14Apr2025 17:23:37.747] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Registered party system for OPAC: default
+[14Apr2025 17:23:37.750] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Registered permission system for OPAC: luck_perms
+[14Apr2025 17:23:37.752] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Registered permission system for OPAC: permission_api
+[14Apr2025 17:23:37.791] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[14Apr2025 17:23:37.791] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isTreasureOnly() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[14Apr2025 17:23:37.792] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isTradeable() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[14Apr2025 17:23:37.816] [Server thread/INFO] [Framework/]: Loading server configs...
+[14Apr2025 17:23:37.824] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[14Apr2025 17:23:43.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[14Apr2025 17:23:47.625] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 17:23:47.662] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 17:23:47.672] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 17:23:47.723] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 17:23:47.752] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 17:23:47.769] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 17:23:47.779] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 17:23:47.783] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 17:23:47.785] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 17:23:47.789] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 17:23:48.109] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 17:23:48.604] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 17:23:49.103] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 17:23:49.602] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 17:23:50.102] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
+[14Apr2025 17:23:50.575] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7474 ms
+[14Apr2025 17:23:50.576] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (15.182s)! For help, type "help"
+[14Apr2025 17:23:50.650] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler luckperms:permission_handler
+[14Apr2025 17:23:50.651] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading claims...
+[14Apr2025 17:23:50.655] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded claims in 5ms
+[14Apr2025 17:23:50.655] [Server thread/WARN] [xaero.pac.OpenPartiesAndClaims/]: The configured permission system "prometheus" isn't registered!
+[14Apr2025 17:23:50.656] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Configured OPAC to use the following permission system: luck_perms
+[14Apr2025 17:23:50.656] [Server thread/WARN] [xaero.pac.OpenPartiesAndClaims/]: The configured primary party system "argonauts_guilds" isn't registered!
+[14Apr2025 17:23:50.656] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Configured OPAC to use the following party system as primary: default
+[14Apr2025 17:23:50.688] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser finished, item count: 14
+[14Apr2025 17:23:50.688] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser finished, item count: 17
+[14Apr2025 17:23:50.688] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser finished, item count: 16
+[14Apr2025 17:23:50.689] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: InfernalMobsCore commonSetup completed! Modifiers ready: 27
+[14Apr2025 17:23:50.689] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: InfernalMobsCore commonSetup completed! config file at: /workspaces/turbo-palm-tree/servidor_minecraft/./config/infernalmobs.cfg
+[14Apr2025 17:23:50.695] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[14Apr2025 17:23:50.704] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
+[14Apr2025 17:23:50.711] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
