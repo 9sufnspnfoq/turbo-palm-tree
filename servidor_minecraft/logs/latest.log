@@ -754,3 +754,5 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [14Apr2025 20:12:34.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [reiner1411: Teleported reiner1411 to -1475.500000, 68.500000, 6984.500000]
 [14Apr2025 20:15:21.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [reiner1411: Teleported reiner1411 to -8711.500000, -50.500000, 7288.500000]
 [14Apr2025 20:16:26.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reiner1411 has made the advancement [Sneak 100]
+[14Apr2025 20:26:17.709] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Honeyed Archer'/98580, l='ServerLevel[world]', x=-1489.66, y=73.61, z=7103.60] died: Honeyed Archer burned to death
+[14Apr2025 20:29:47.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reiner1411 has made the advancement [Palette Swap]
