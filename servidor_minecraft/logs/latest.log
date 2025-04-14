@@ -752,3 +752,5 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [14Apr2025 20:10:34.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [reiner1411: Teleported reiner1411 to -1464.500000, 68.500000, 7027.500000]
 [14Apr2025 20:12:11.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [reiner1411: Teleported reiner1411 to -8714.500000, 154.500000, 7303.500000]
 [14Apr2025 20:12:34.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [reiner1411: Teleported reiner1411 to -1475.500000, 68.500000, 6984.500000]
+[14Apr2025 20:15:21.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [reiner1411: Teleported reiner1411 to -8711.500000, -50.500000, 7288.500000]
+[14Apr2025 20:16:26.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reiner1411 has made the advancement [Sneak 100]
