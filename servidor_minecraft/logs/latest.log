@@ -665,3 +665,31 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [14Apr2025 18:47:32.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZzBaal_ has made the advancement [To Die For]
 [14Apr2025 18:48:31.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ZzBaal_: Set the time to 1000]
 [14Apr2025 18:49:39.151] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[14Apr2025 18:54:29.882] [Server thread/WARN] [ImprovableSkills/]: Skill tick took too long! (336 ms, expected <50 ms!). Time map: [improvableskills:accelerated_furnace=336, improvableskills:luck_of_the_sea=0, improvableskills:silent_foot=0, improvableskills:obsidian_skin=0, improvableskills:attack_speed=0, improvableskills:dexterous_arms=0, improvableskills:huckster=0, improvableskills:fast_swimmer=0, improvableskills:growth=0, improvableskills:pvp=0, improvableskills:xp_plus=0, improvableskills:soft_landing=0, improvableskills:cutting=0, improvableskills:treasure_sands=0, improvableskills:mob_repellent=0, improvableskills:mining=0, improvableskills:atkdmg_ranged=0, improvableskills:alchemist=0, improvableskills:leaper=0, improvableskills:atkdmg_melee=0, improvableskills:ladder_king=0, improvableskills:ender_manipulator=0, improvableskills:generic_protection=0, improvableskills:health=0, improvableskills:enchanter=0, improvableskills:anvil=0, improvableskills:digging=0, improvableskills:soul_speed=0]
+[14Apr2025 18:54:30.179] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.heightproviders.UniformHeight/]: Empty height range: [6 above bottom--1 absolute]
+[14Apr2025 18:54:30.180] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.heightproviders.UniformHeight/]: Empty height range: [6 above bottom--1 absolute]
+[14Apr2025 18:54:30.180] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.heightproviders.UniformHeight/]: Empty height range: [6 above bottom--1 absolute]
+[14Apr2025 18:54:45.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reiner1411 has reached the goal [Senior Summoner]
+[14Apr2025 19:00:38.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reiner1411 has completed the challenge [Back To Hell]
+[14Apr2025 19:01:55.725] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Witch['Viscount Ronald the Funky'/42553, l='ServerLevel[world]', x=-3173.70, y=72.00, z=5377.30] died: Viscount Ronald the Funky was slain by reiner1411
+[14Apr2025 19:03:18.869] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity CursedArmor['Freshah'/44112, l='ServerLevel[world]', x=927.30, y=55.00, z=2770.29] died: Freshah was slain by ZzBaal_
+[14Apr2025 19:03:33.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZzBaal_ has made the advancement [Weather Warning]
+[14Apr2025 19:03:37.603] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[14Apr2025 19:03:37.874] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[14Apr2025 19:03:55.099] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[14Apr2025 19:05:07.765] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Elliot the Scary'/45087, l='ServerLevel[world]', x=-3577.53, y=92.00, z=5147.82] died: Elliot the Scary was slain by reiner1411
+[14Apr2025 19:05:21.963] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=935, y=52, z=2789} BlockPos{x=935, y=53, z=2789}
+[14Apr2025 19:05:35.202] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[14Apr2025 19:06:22.903] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[14Apr2025 19:07:02.431] [Server thread/ERROR] [Apotheosis : Adventure/]: Failed to execute LootRule minecraft:diamond_helmet/apotheosis:mythic/ABILITY/0.3!
+[14Apr2025 19:07:04.786] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[14Apr2025 19:07:41.551] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[14Apr2025 19:08:05.574] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Stray['Jankua the Pyromancer'/47845, l='ServerLevel[world]', x=-4215.29, y=80.00, z=4898.52] died: Jankua the Pyromancer was slain by reiner1411
+[14Apr2025 19:08:13.782] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[14Apr2025 19:08:19.118] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[14Apr2025 19:10:28.474] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2530ms or 50 ticks behind
+[14Apr2025 19:15:05.178] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Phantom['Overseer Jill the Shiny'/52299, l='ServerLevel[world]', x=-2115.61, y=-54.50, z=312.78] died: Overseer Jill the Shiny was slain by ZzBaal_
+[14Apr2025 19:16:37.726] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Shulker['Lila the Dark'/53472, l='ServerLevel[world]', x=-2109.50, y=-55.00, z=307.50] died: Lila the Dark was slain by ZzBaal_
+[14Apr2025 19:19:03.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ZzBaal_> aakakakaa
+[14Apr2025 19:22:46.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reiner1411 has made the advancement [Professional Dungeoneer]
+[14Apr2025 19:22:46.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reiner1411 has made the advancement [When in Rome]

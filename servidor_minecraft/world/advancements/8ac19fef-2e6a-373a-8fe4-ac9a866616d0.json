@@ -7798,5 +7798,17 @@
     },
     "done": true
   },
+  "ars_nouveau:eat_bombegranate": {
+    "criteria": {
+      "eat_bombegranate": "2025-04-14 18:47:32 +0000"
+    },
+    "done": true
+  },
+  "simplyswords:tempest": {
+    "criteria": {
+      "requirement": "2025-04-14 19:03:33 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
